@@ -48,3 +48,5 @@ make all        ---  synonym for make [default]
 The `master` branch of this repo stores files that are publically served.
 
 Please keep unstable experiments and major changes on separate branches.
+
+Also make sure to run `make serve` as a sanity check before pushing a change.
