@@ -1,0 +1,285 @@
+<style>
+  @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+  @import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+  h1, h2, h4, h5, h6 {
+    font-family: 'PT Sans', 'Helvetica', 'Arial';;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', 'Helvetica', 'Arial';
+  }
+
+  #top-bar {
+    width: 100%;
+    background: #F1F1F1; /* light gray */
+    border-bottom: 1px solid #00108C; /* dark gray "underline" */
+    height: 25px;
+  }
+
+  .normal-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px 40px;
+    overflow: auto;
+  }
+
+  .centre_wrapper {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 15px;       /* the same as your div height */
+  }
+
+  .logo-icon {
+    color: #000000;
+    font-size: 60pt;
+    float: left;
+  }
+
+  h1 {
+    float: left;
+    margin: 21px 0 0 25px;
+  }
+
+  #navbar {
+      list-style-type: none; /* remove bullet points */
+      margin: 3px 0 0 0;
+      padding: 0;
+      float: none;
+      font-size: 16pt;
+  }
+
+/* Modify the table class's CSS so that we can center the navbar*/
+  .table {
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+    margin-bottom: 10px
+  }
+/* Make the list items horizonatal*/
+  #navbar li {
+      display: inline; /* make items horizontal */
+  }
+/* Make the navbar pretty*/
+  #navbar li a:link, #navbar li a:visited, #navbar li a:active {
+    text-decoration: none; /* remove underline */
+    color: #000000;
+    padding: 0 16px 0 10px; /* space links apart */
+    margin: 0;
+    border-right: 2px solid #B4B4B4; /* divider */
+  }
+/* Navbar mroe pretty...*/
+  #navbar li a:link.last-link {
+    /* remove divider */
+    border-right: 0px;
+  }
+/* Make the navbar change colour when you hover over it (ie a hover event on list items)*/
+  #navbar li a:hover {
+    /* change color on hover (mouseover) */
+    color: #00108C;
+  }
+/*Style the backsplash at the top*/
+  #top-color-splash {
+    width: 100%;
+    height: 4px;
+    background: #00108C;
+  }
+
+  .one-third {
+    width: 40%;
+    float: left;
+    box-sizing: border-box; /* ensure padding and borders do not increase the size */
+    margin-top: 20px;
+  }
+
+  .two-third {
+    /* width: 60%; */
+    float: left;
+    box-sizing: border-box; /* ensure padding and borders do not increase the size */
+    padding-left: 40px;
+    text-align: right;
+    margin-top: 20px;
+  }
+
+  .featured-image {
+    max-width: 500px; /* reduce image size while maintaining aspect ratio */
+  }
+
+  .logo-image {
+    max-width: 100%; /* reduce image size while maintaining aspect ratio */
+  }
+
+  .face-image {
+    max-width: 95px; /* reduce image size while maintaining aspect ratio */
+  }
+
+  .no-margin-top {
+    margin-top: 0; /* remove margin on things like headers */
+  }
+
+  #quote-area {
+    background: #363636;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 0;
+  }
+
+  h3 {
+    font-weight: normal;
+    font-size: 20pt;
+    margin-top: 0px;
+  }
+
+  h4 {
+    font-weight: normal;
+    font-size: 16pt;
+    margin-bottom: 0;
+  }
+
+  .icon-outer {
+    box-sizing: border-box; /* ensure padding and borders do not increase the size */
+    float: none;
+    width: 33.33%;
+    padding: 25px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .icon-circle {
+    background: #EEEEEE;
+    color: #B4B4B4;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px; /* make rounded corners */
+    margin: 0 auto;
+    border: 2px solid #D6D6D6;
+    box-sizing: border-box; /* ensure padding and borders do not increase the size */
+    font-size: 75pt;
+    padding: 50px 0 0 0;
+    cursor: pointer;
+  }
+
+  .icon-circle:hover {
+    /* change color on hover (mouseover) */
+    color: #FFFFFF;
+    background: #00108C; /* red */
+  }
+
+  div.polaroidface {
+    width: 16%;
+    min-width: 25px;
+    max-width: 16%;
+    display: inline-block;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  img {width: 100%}
+
+  div.container {
+    justify-content: center;
+    text-align: center;
+    min-width: 25px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+    overflow auto;
+  }
+
+  #thumbs {
+      width: 50%;
+      margin-top:20px;
+      margin-left: auto;
+      margin-right: auto;
+
+       text-align: justify;
+      -ms-text-justify: distribute-all-lines;
+      text-justify: distribute-all-lines;
+  }
+
+  #thumbs a {
+      vertical-align: top;
+      display: inline-block;
+      *display: inline;
+      zoom: 1;
+  }
+
+  .stretch {
+      width: 100%;
+      display: inline-block;
+      font-size: 0;
+      line-height: 0
+  }
+
+  h5 {
+    margin: 15px 0 10px 0;
+    font-size: 20pt;
+  }
+
+  #footer {
+    width: 100%;
+    background: #F1F1F1; /* light gray */
+    border-top: 1px solid #D4D4D4; /* dark gray "topline" */
+    height: 150px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  a { color: #B4B4B4; } /* CSS link color */
+
+
+
+
+  /* Tabs for projects page */
+
+
+  /* Style the tab */
+.tab {
+ overflow: hidden;
+ background-color: #f1f1f1;
+ font-size: 20pt;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+ background-color: inherit;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ padding: 14px 16px;
+ font-size: 12pt;
+ transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+ background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+ color: #FFFFFF;
+ background-color: #00108C;
+}
+
+/* Style the tab content */
+.tabcontent {
+ display: none;
+ padding: 6px 12px;
+ border: 1px solid #ccc;
+ border-top: none;
+}
+
+.projectPhoto {
+  width: 70%;
+  border: 5px solid;
+  border-color: #00108C;
+
+}
+</style>

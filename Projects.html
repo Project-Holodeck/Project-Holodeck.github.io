@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- Base code from MakeUseOf website tutorial, thank you guys! -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>UTOPH</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="UTOPHstyles.css" />
+
+</head>
+
+<!-- Beginning of HTML code-->
+<body>
+
+  <div id="top-bar"></div>
+
+<!-- Logo container -->
+  <div class="normal-wrapper">
+    <div id="logo-container">
+      <img id="logo" class = "logo-image" src="Logo.jpg" />
+      <!--<i class="fas fa-satellite"></i><h1>University of Toronto Project Holodeck</h1>   -->
+    </div>
+
+  </div>
+
+  <div>
+  <!-- wrap the navbar in a table so that we can center it -->
+    <div class="table">
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Team.html">Team</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <!--<li><a href="https://www.leapmotion.com/">Sponsor</a></li>-->
+        <li><a href="Contact.html" class="last-link">Contact & Signup</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="top-color-splash"></div>
+
+
+<!-- Wrapper around the porjects tabs and body of the page -->
+<div class = centre_wrapper>
+
+  <!-- Tab links -->
+ <div class="tab">
+   <button class="tablinks" onclick="openProject(event, 'Treadmill')">Treadmill</button>
+   <button class="tablinks" onclick="openProject(event, 'Shoes')">Omni-Directional Shoes</button>
+   <button class="tablinks" onclick="openProject(event, 'Room Scanner')">Room Scanner</button>
+   <button class="tablinks" onclick="openProject(event, 'Leap Motion')">Leap Motion</button>
+
+ </div>
+
+ <!-- Tab content -->
+ <div id="Treadmill" class="tabcontent">
+   <h3><br>Omnidirectional VR Treadmill</h3>
+   <p>Inspired by the Holodeck on Star Trek, and thinking we could build seomthing ourselves, <br>we went through with this project as one of our first.</p>
+   <img class = "projectPhoto", src="Project_Photos/Treadmill/BenInTreadmill2.jpg">
+ </div>
+
+
+ <div id="Shoes" class="tabcontent">
+   <h3><br>Omni-Directional Shoes</h3>
+   <p>Inspired by the Holodeck on Star Trek, and thinking we could build seomthing ourselves, <br>we went through with this project as one of our first.</p>
+   <img class = "projectPhoto", src="Project_Photos/Shoes/Sideways.jpg">
+ </div>
+
+
+ <div id="Room Scanner" class="tabcontent">
+   <h3><br>3D Room Scanner</h3>
+
+   <p>Using Lidar, a 360 degree camera and the HTC Vive controller, we are mapping the room to a 3D set of points,
+     <br>and soon will be mapping textures from the camera to those points.
+
+     <br><br> This model is created by waving the combined device throughout the room as though painting it, while keeping
+     <br> track of the device's position using the Vive controller.</p>
+     <img class = "projectPhoto", src="Project_Photos/RoomScanner/HeldUp.jpg">
+
+ </div>
+
+
+ <div id="Leap Motion" class="tabcontent">
+   <h3><br>Leap Motion VR Interaction</h3>
+   <p>The Leap is an accurate tool for tracking your hands and fingers in front of you.
+   <br> Our current goal is to integrate the output of two of these sensors to gain an
+   <br> even more accurate view of where your hands are, to improve accuracy even further
+   <br> and allow for even more complex hand gestures.</p>
+   <img class = "projectPhoto", src="Project_Photos/LeapMotion/handsNleap.jpeg">
+ </div>
+</div>
+
+
+
+  <div class="normal-wrapper">
+    <div class="icon-outer">
+      <a href="https://www.facebook.com/groups/projectholodeck/">
+        <div class="icon-circle">
+          <i class="fa fa-facebook-f"></i>
+        </div>
+      </a>
+      <h5>Facebook</h5>
+      <p>Checkout our Facebook page for events!</p>
+    </div>
+
+
+  </div>
+
+  <div id="footer"></div>
+
+<!--JavaScript references-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+
+  <script type="text/javascript">
+    function openProject(evt, projectName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(projectName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  </script>
