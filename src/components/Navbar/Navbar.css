@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'roddenberry';
+    src: url('./fonts/Roddenberry.otf');
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+.navbarContainer {
+    background-color: rgb(221, 221, 221);
+    width: 94%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    align-items: center;
+    /*border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 4px;
+    border-color: rgb(0, 0, 0, 1);*/
+}
+
+.navbarIconContainer {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    font-family: Roddenberry;
+    align-self: center;
+    align-items: center;
+    gap: 3%;
+    font-size: 250%;
+    color:  rgb(0, 1, 61)
+}
+
+.navbarIconContainer h1 {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.navbarItemContainer {
+    position: relative;
+    display: flex;
+    margin-right: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    /*margin-top: 1%;
+    padding-bottom: 1%;*/
+    height: 65%;
+    width: fit-content;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.0);
+    border-radius: 50px 0px 50px 0px;
+}
+
+.navbarItems {
+    /*padding-top: 3%;*/
+    font-size: 2em;
+}
+
+.navbarLine {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: italic;
+    font-size: 3em;
+    align-self: center;
+    margin-bottom: 9%;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.navbarItems p {
+    padding: 0px;
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width: 3px;
+    border-color: rgb(0, 0, 0, 0);
+    transition: 0.3s;
+    font-family: 'Kanit', sans-serif;
+}
+
+.navbarItems:hover a {
+    /*color: rgb(65, 134, 224);*/
+}
+
+.navbarItems:hover p {
+    border-color: rgb(0, 2, 102);
+}
+
+.navbarIcon {
+    height: 80%;
+}
+
+.navbarSignUp p {
+    background-color: rgb(255, 255, 255, 0.5);
+    border-width: 0px;
+    padding: 0px 10px;
+    border-radius: 20px 20px;
+    transition: 0.3s;
+}
+
+.navbarSignUp:hover p {
+    background-color: rgb(255, 255, 255, 1);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+}
