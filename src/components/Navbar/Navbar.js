@@ -36,6 +36,6 @@ const Navbar = () => {
         
     </div>
   );
-};
+}; // This is a test comment
 
 export default Navbar;
