@@ -4,12 +4,24 @@ import { MenuItems } from './MenuItems.js';
 import utophIcon from './images/utoph-icon.png';
 
 const Navbar = () => {
+
+  const pagePath = (title) => {
+    let path = window.location.pathname;
+    if((title === "HOME" && path === "/") || (title === "TEAM" && path === "/team") || (title === "PROJECTS" && path === "/projects")) 
+      return <p style={{borderColor: 'rgb(0, 2, 132)', color: 'rgb(46, 46, 46)'}}>{title}</p>
+    else
+      return <p>{title}</p>
+  }
+
+
   return (
     <div className="navbarContainer">
 
       <div className="navbarIconContainer">
-       <img className="navbarIcon" src={utophIcon} alt=""/>
-       <h1>UTOPH</h1>
+       <a href="/">
+        <img className="navbarIcon" src={utophIcon} alt=""/>
+        <h1>UTOPH</h1>
+       </a>
       </div>
 
       <div className="navbarItemContainer">
@@ -18,12 +30,12 @@ const Navbar = () => {
               <>
               <div className="navbarItems">
                 <a href={item.url}>
-                  <p>{item.title}</p>
+                  
+                    {pagePath(item.title)}
                 </a>
               </div>
-              <p className="navbarLine">|</p>
-              </>
-              
+              <p className="navbarLine"></p>
+              </> 
             )
           })}
 
