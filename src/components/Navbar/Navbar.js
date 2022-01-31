@@ -1,7 +1,9 @@
 import React from 'react';
 import './Navbar.css';
+import { useState} from 'react';
 import { MenuItems } from './MenuItems.js';
 import utophIcon from './images/utoph-icon.png';
+
 
 const Navbar = () => {
 
@@ -13,9 +15,16 @@ const Navbar = () => {
       return <p>{title}</p>
   }
 
+  const [click, onClick] = useState(false);
+
+  const toggleMenu = () => {
+    onClick(!click);
+  }
+
 
   return (
-    <div className="navbarContainer">
+    <nav className="navbarContainer">
+      
 
       <div className="navbarIconContainer">
        <a href="/">
@@ -23,30 +32,34 @@ const Navbar = () => {
         <h1>UTOPH</h1>
        </a>
       </div>
-
-      <div className="navbarItemContainer">
-        {MenuItems.map((item) => {
-            return (
-              <>
-              <div className="navbarItems">
-                <a href={item.url}>
-                  
-                    {pagePath(item.title)}
-                </a>
-              </div>
-              <p className="navbarLine"></p>
-              </> 
-            )
-          })}
+      <div>
+        <div className="navbarMenuIcon" onClick={toggleMenu}>
+          <i className={click ? "fas fa-times" : "fas fa-bars"}>
+          </i>
+        </div>
+        <div className={click ? "navbarItemContainer active" : "navbarItemContainer"}>
+        
+          {MenuItems.map((item) => {
+              return (
+                <div className="navbarItems">
+                  <a className={item.cName} href={item.url}>
+                    
+                      {pagePath(item.title)}
+                  </a>
+                </div> 
+              )
+            })}
 
           <div className="navbarItems navbarSignUp">
-            <a href="/signup">
-              <p>SIGN UP</p>
+            <a className="nav-links" href="/signup">
+              <p>JOIN US</p>
             </a>
           </div>
+        </div>
       </div>
+      
         
-    </div>
+    </nav>
   );
 }; // This is a test comment
 
