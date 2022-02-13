@@ -59,10 +59,16 @@
   background-color: #a2b5f3;
   color: white;
 }
+.teamPageCardStyle1.teamPageCard:hover {
+  background-color: #92a5e3;
+}
 
 .teamPageCardStyle2 {
   background-color: #e0e0e0;
   color: black;
+}
+.teamPageCardStyle2.teamPageCard:hover {
+  background-color: #d0d0d0;
 }
 
 .teamPageCardStyle1 .teamPageCardLink1 {
