@@ -14,19 +14,19 @@ const index = () => {
     <>
       <ProjectPageBanner />
       <Tabs>
-        <div label="Tab1">
+        <div label="Treadmill">
           <ProjectContent project={projectInfo[0]} imgSrc={treadmill} />
         </div>
-        <div label="Tab2">
+        <div label="Leap Arcade">
           <ProjectContent project={projectInfo[1]} imgSrc={arcade} />
         </div>
-        <div label="Tab3">
+        <div label="Omni-directional Shoes">
           <ProjectContent project={projectInfo[2]} imgSrc={shoes} />
         </div>
-        <div label="Tab4">
+        <div label="Room Scanner">
           <ProjectContent project={projectInfo[3]} imgSrc={roomscanner} />
         </div>
-        <div label="Tab5">
+        <div label="Leap Motion">
           <ProjectContent project={projectInfo[4]} imgSrc={leapmotion} />
         </div>
       </Tabs>
