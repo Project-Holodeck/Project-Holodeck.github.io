@@ -12,13 +12,11 @@ const projectContent = ({ project, imgSrc }) => {
           <div className='projectBorderContainerTop'>
             <div className='projectBorder'></div>
           </div>
-
           <h3>About the {project.title.toLowerCase()} project</h3>
           <p>{project.description}</p>
           <p>Project Start Date: {project.start}</p>
           <p>Completion Date: {project.end}</p>
           <p>Project Members: {project.members}</p>
-
           <div className='projectBorderContainerBottom'>
             <div className='projectBorder'></div>
           </div>
