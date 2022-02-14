@@ -1,13 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import "./Tabs.css";
-import projectInfo from "./projectInfo";
-import arcade from "./images/arcade.jpg";
-import leapmotion from "./images/leapmotion.jpeg";
-import roomscanner from "./images/roomscanner.jpg";
-import shoes from "./images/shoes.jpg";
-import treadmill from "./images/treadmill.jpg";
-import ProjectContent from "./projectContent";
 
 const Tabs = ({ children }) => {
   const [activeTab, setActiveTab] = useState(children[0].props.label);
