@@ -18,15 +18,6 @@
     margin-right: 10%;
 }
 
-@media only screen and (max-width: 450px) {
-    .CurrentExecutiveTitleWrapper, .FormerTitleWrapper, .GeneralTitleWrapper {
-        display: flex;
-        justify-content: center;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-}
-
 .myStop1 {
     stop-color: #c5dfea;
     stop-opacity: 1;
@@ -35,4 +26,23 @@
 .myStop2 {
     stop-color: #a2b5f3;
     stop-opacity: 1;
+}
+
+.BlackHeader {
+    color: black;
+    font-size: 40px;
+}
+
+.WhiteHeader {
+    color: white;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 450px) {
+    .CurrentExecutiveTitleWrapper, .FormerTitleWrapper, .GeneralTitleWrapper {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }

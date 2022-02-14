@@ -6,7 +6,7 @@ const TeamPageBanner = () => {
     return (
         <div className='TeamPageBanner'>
             <div className='TeamPageTitleWrapper'>
-                <h1>Our Team</h1>
+                <p className='ourTeamHeader'><arrow>⌜</arrow>Our<x> Team</x><arrow>⌟</arrow></p>
             </div>
         </div>
     );

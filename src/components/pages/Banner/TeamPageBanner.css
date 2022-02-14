@@ -5,3 +5,23 @@
     align-items: center;
     background: linear-gradient(0.25turn, #c5dfea, #a9d0eb, #a2b5f3);
 }
+
+.ourTeamHeader {
+    color: #0000FF;
+    font-size: 65px;
+    text-shadow: black 2px 2px 2px;
+    font-family: 'Kanit';
+  }
+  
+  .ourTeamHeader x {
+    color: #fff;
+    font-size: 65px;
+    text-shadow: black 1px 1px 1px;
+    font-family: 'Kanit';
+  }
+  .ourTeamHeader arrow {
+    color: black;
+    font-size: 65px;
+    text-shadow: black 2px 2px 2px;
+    font-family: 'Kanit';
+  }

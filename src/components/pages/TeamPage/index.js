@@ -52,13 +52,14 @@ const index = () => {
       <TeamPageBanner />
       <div className='ExecCardContainer'>
         <div className='CurrentExecutiveTitleWrapper'>
-          <h1>Current Executive Members</h1>
+          <p className='BlackHeader'><arrow>⌜</arrow>Current Executive Members<arrow>⌟</arrow></p>
         </div>
         <div className='CardGridContainer'>
           <CardGrid cards={myCards}/>
         </div>
       </div>
       <div style={{height: "150px", overflow: 'hidden'}}>
+        {/* An svg with a gradient applied */}
         <svg viewBox='0 0 500 150' preserveAspectRatio='none' style={{height: '150px', overflow: 'hidden', width:'100%'}}>
           <defs>
             <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -71,7 +72,7 @@ const index = () => {
       </div>
       <div className='GeneralCardContainer'>
         <div className='GeneralTitleWrapper'>
-          <h1>General Members</h1>
+          <p className='WhiteHeader'><arrow>⌜</arrow>General Members<arrow>⌟</arrow></p>
         </div>
         <div className='CardGridContainer'>
           <CardGrid cards={myCards2} />
@@ -85,7 +86,7 @@ const index = () => {
       </div>
       <div className='FormerCardContainer'>
         <div className='FormerTitleWrapper'>
-          <h1>Former Executive Members</h1>
+          <p className='BlackHeader'><arrow>⌜</arrow>Former Executive Members<arrow>⌟</arrow></p>
         </div>
         <div className='CardGridContainer'>
           <CardGrid cards={myCards3} />
