@@ -5,7 +5,7 @@ import './card.css';
 const Card = ({card}) => {
   return <>
     <div className={"teamPageCard " + card.className}>
-      <img className="teamPageCardImg" src={card.image}/>
+      <img className="teamPageCardImg" src={card.image} alt={"TeamMember"}/>
       <br/>
       <span className="teamPageCardName">{card.name}</span>
       <br/>
