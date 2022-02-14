@@ -1,6 +1,9 @@
 .teamPage {
-    display: flex;
-    flex-direction: column;
+    text-align: center;
+}
+
+.GeneralCardContainer {
+    background: linear-gradient(0.25turn, #c5dfea, #a9d0eb, #a2b5f3);
 }
 
 .CurrentExecutiveTitleWrapper, .FormerTitleWrapper {
@@ -22,4 +25,14 @@
         margin-left: 0px;
         margin-right: 0px;
     }
+}
+
+.myStop1 {
+    stop-color: #c5dfea;
+    stop-opacity: 1;
+}
+
+.myStop2 {
+    stop-color: #a2b5f3;
+    stop-opacity: 1;
 }

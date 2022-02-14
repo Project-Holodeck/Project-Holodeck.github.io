@@ -1,6 +1,7 @@
 .TeamPageBanner {
-    height: calc(100vh - 100px);
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(0.25turn, #c5dfea, #a9d0eb, #a2b5f3);
 }

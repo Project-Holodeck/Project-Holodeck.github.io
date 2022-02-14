@@ -48,7 +48,7 @@ let myCards3 = [testingCard3, testingCard3, testingCard3, testingCard3, ]
 
 const index = () => {
   return (
-    <div >
+    <div className='teamPage'>
       <TeamPageBanner />
       <div className='ExecCardContainer'>
         <div className='CurrentExecutiveTitleWrapper'>
@@ -58,12 +58,29 @@ const index = () => {
           <CardGrid cards={myCards}/>
         </div>
       </div>
+      <div style={{height: "150px", overflow: 'hidden'}}>
+        <svg viewBox='0 0 500 150' preserveAspectRatio='none' style={{height: '150px', overflow: 'hidden', width:'100%'}}>
+          <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" className='myStop1'/>
+              <stop offset="100%" className='myStop2'/>
+            </linearGradient>
+          </defs>
+          <path d='M-2.59,64.64 C233.29,196.88 321.33,-64.64 500.22,69.56 L500.00,150.00 L0.00,150.00 Z' fill='url(#grad1)'/>
+        </svg>
+      </div>
       <div className='GeneralCardContainer'>
         <div className='GeneralTitleWrapper'>
           <h1>General Members</h1>
         </div>
         <div className='CardGridContainer'>
           <CardGrid cards={myCards2} />
+        </div>
+        <div style={{height: "150px", overflow: 'hidden', background: 'linear-gradient(0.25turn, #c5dfea, #a9d0eb, #a2b5f3)'}}>
+          <svg viewBox='0 0 500 150' preserveAspectRatio='none' style={{height: '150px', overflow: 'hidden', width:'100%'}}>
+              <path d='M-2.59,64.64 C233.29,196.88 321.33,-64.64 500.22,69.56 L500.00,150.00 L0.00,150.00 Z'
+              style={{stroke: 'none', fill: 'white'}}/>
+          </svg>
         </div>
       </div>
       <div className='FormerCardContainer'>
