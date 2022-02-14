@@ -5,3 +5,9 @@
     width: 65%;
     margin: auto;
 }
+
+@media only screen and  (max-width: 768px) {
+    .CardGrid {
+        justify-content: center;
+    }
+}

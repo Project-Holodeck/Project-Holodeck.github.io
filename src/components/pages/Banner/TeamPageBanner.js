@@ -1,4 +1,5 @@
 import React from 'react';
+import './TeamPageBanner.css';
 
 // This banner will have a straight border instead of a wavy one
 const TeamPageBanner = () => {
