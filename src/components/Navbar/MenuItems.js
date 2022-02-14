@@ -11,7 +11,7 @@ export const MenuItems = [
   },
   {
     title: 'PROJECTS',
-    url: '/projects/treadmill',
+    url: '/projects',
     cName: 'nav-links',
   },
   {

@@ -1,34 +1,26 @@
 import React from 'react';
-import './index.css';
 
 import Banner from '../Banner/Banner';
+import projectInfo from './projectInfo';
+import arcade from './images/arcade.jpg';
+import leapmotion from './images/leapmotion.jpeg';
+import roomscanner from './images/roomscanner.jpg';
+import shoes from './images/shoes.jpg';
+import treadmill from './images/treadmill.jpg';
+import ProjectContent from './projectContent';
 
-const index = ({ project, imgSrc }) => {
+
+const index = () => {
   return (
-    <div>
+    <>
       <Banner />
+      <ProjectContent project={projectInfo[0]} imgSrc={treadmill} />
+      <ProjectContent project={projectInfo[1]} imgSrc={arcade} />
+      <ProjectContent project={projectInfo[2]} imgSrc={shoes} />
+      <ProjectContent project={projectInfo[3]} imgSrc={roomscanner} />
+      <ProjectContent project={projectInfo[4]} imgSrc={leapmotion} />
 
-      <div className='projectContainer'>
-        <div className='projectImageContainer'>
-          <img className='projectImage' src={imgSrc} alt={project.name} />
-        </div>
-        <div className='projectDetailContainer'>
-          <div className='projectBorderContainerTop'>
-            <div className='projectBorder'></div>
-          </div>
-
-          <h3>About the {project.title.toLowerCase()} project</h3>
-          <p>{project.description}</p>
-          <p>Project Start Date: {project.start}</p>
-          <p>Completion Date: {project.end}</p>
-          <p>Project Members: {project.members}</p>
-
-          <div className='projectBorderContainerBottom'>
-            <div className='projectBorder'></div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </>
   );
 };
 
