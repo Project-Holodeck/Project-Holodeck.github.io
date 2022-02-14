@@ -8,7 +8,7 @@ let sampleImg = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAAC"
               + "UFjqAAAADUlEQVQY02NgGAWkAwABNgABGtWNFwAAAABJRU5ErkJggg==";
 const index = () => {
   return <div style={{display: "flex", gap: "100px", padding: "100px",
-                      backgroundColor: "black"}}>
+                      backgroundColor: "white"}}>
     <Card card={{
       className: "teamPageCardStyle1",
       image: sampleImg,
