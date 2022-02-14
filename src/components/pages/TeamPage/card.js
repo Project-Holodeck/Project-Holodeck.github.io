@@ -1,5 +1,7 @@
 // card has attributes .className, .image, .name, .position,
 //   .discipline [is "discipline+year"], .link1, .link2
+import './card.css';
+
 const Card = ({card}) => {
   return <>
     <div className={"teamPageCard " + card.className}>
