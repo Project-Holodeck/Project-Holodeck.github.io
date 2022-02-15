@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  background-color: #FFFFFF;
+  font-family: Montserrat, 'sans-serif';
 }
 
 .signUp-gradient {
@@ -17,7 +19,8 @@
 #signUp-header {
   position: relative;
   margin: auto;
-  font-size: 5vw;
+  margin-top: 5%;
+  font-size: 4vw;
   width: 50%;
 }
 
@@ -46,7 +49,7 @@
 }
 
 #signUp-header-message {
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: white;
   text-align: center;
   padding: 0px 5vw;
@@ -79,6 +82,6 @@
 .signUp-form {
   border: none;
   width: 55%;
-  height: 500px;
-  align: center;
+  height: 850px;
+  padding-bottom: 100px;
 }

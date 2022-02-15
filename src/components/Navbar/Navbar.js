@@ -43,7 +43,6 @@ const Navbar = () => {
               return (
                 <div className="navbarItems">
                   <a className={item.cName} href={item.url}>
-                    
                       {pagePath(item.title)}
                   </a>
                 </div> 
