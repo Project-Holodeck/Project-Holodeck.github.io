@@ -22,6 +22,18 @@ const TeamPageBanner = () => {
                 <div className='projectBorderContainerBottom'>
                     <div className='projectBorder'></div>
                 </div>
+                <div className='linkContainer'>
+                    <div className='CurrentExecLink'>
+                        <p>[<a href='#ExecDiv'>Executives</a>]</p>
+                    </div>
+                    <div className='GeneralLink'>
+                        <p>[<a href='#GeneralDiv'>Members</a>]</p>
+                    </div>
+                    <div className='FormerExecLink'>
+                        <p>[<a href='#FormerDiv'>Former Executives</a>]</p>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     );

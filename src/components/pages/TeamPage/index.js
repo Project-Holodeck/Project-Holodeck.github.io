@@ -50,7 +50,7 @@ const index = () => {
   return (
     <div className='teamPage'>
       <TeamPageBanner />
-      <div className='ExecCardContainer'>
+      <div className='ExecCardContainer' id='ExecDiv'>
         <div className='CurrentExecutiveTitleWrapper'>
           <p className='BlackHeader'><arrow>⌜</arrow>Current Executive Members<arrow>⌟</arrow></p>
         </div>
@@ -70,7 +70,7 @@ const index = () => {
           <path d='M-2.59,64.64 C233.29,196.88 321.33,-64.64 500.22,69.56 L500.00,150.00 L0.00,150.00 Z' fill='url(#grad1)'/>
         </svg>
       </div>
-      <div className='GeneralCardContainer'>
+      <div className='GeneralCardContainer' id='GeneralDiv'>
         <div className='GeneralTitleWrapper'>
           <p className='WhiteHeader'><arrow>⌜</arrow>General Members<arrow>⌟</arrow></p>
         </div>
@@ -84,7 +84,7 @@ const index = () => {
           </svg>
         </div>
       </div>
-      <div className='FormerCardContainer'>
+      <div className='FormerCardContainer' id='FormerDiv'>
         <div className='FormerTitleWrapper'>
           <p className='BlackHeader'><arrow>⌜</arrow>Former Executive Members<arrow>⌟</arrow></p>
         </div>
