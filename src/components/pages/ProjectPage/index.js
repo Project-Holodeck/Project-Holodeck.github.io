@@ -1,18 +1,20 @@
 import React from "react";
+import ProjectPageBanner from "../Banner/Banner.js";
+import BannerInfo from "../Banner/BannerInfo.js";
+
 import Tabs from "./Tabs.js";
-import ProjectPageBanner from "../Banner/ProjectPageBanner";
+import ProjectContent from "./projectContent";
 import projectInfo from "./projectInfo";
 import arcade from "./images/arcade.jpg";
 import leapmotion from "./images/leapmotion.jpeg";
 import roomscanner from "./images/roomscanner.jpg";
 import shoes from "./images/shoes.jpg";
 import treadmill from "./images/treadmill.jpg";
-import ProjectContent from "./projectContent";
 
 const index = () => {
   return (
     <>
-      <ProjectPageBanner />
+      <ProjectPageBanner banner={BannerInfo[0]} />
       <Tabs>
         <div label="Treadmill">
           <ProjectContent project={projectInfo[0]} imgSrc={treadmill} />

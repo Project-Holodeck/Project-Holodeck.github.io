@@ -1,9 +1,9 @@
 @font-face {
-  font-family: 'roddenberry';
-  src: url('./fonts/Roddenberry.otf');
+  font-family: "roddenberry";
+  src: url("./fonts/Roddenberry.otf");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 
 .navbarContainer {
   background-color: rgb(255, 255, 255);
@@ -60,7 +60,7 @@
   border-bottom-width: 3px;
   border-color: rgb(0, 0, 0, 0);
   transition: 0.3s;
-  font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 .navbarItems:hover a {

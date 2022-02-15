@@ -1,4 +1,35 @@
-.bannerContainer {
-  height: 20rem;
-  background-color: rgb(228, 228, 181);
+.Banner {
+  height: 20em;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0.25turn, #a2b5f3, #a9d0eb, #c5dfea);
+}
+
+.Header {
+  color: #0000ff;
+  text-align: center;
+  font-size: 65px;
+  text-shadow: black 2px 2px 2px;
+  padding-top: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Header x {
+  color: #fff;
+  font-size: 65px;
+  text-shadow: black 1px 1px 1px;
+}
+.Header arrow {
+  color: black;
+  font-size: 65px;
+  text-shadow: black 2px 2px 2px;
+}
+
+.BlurbWrapper {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
