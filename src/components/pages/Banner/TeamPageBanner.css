@@ -1,9 +1,10 @@
 .TeamPageBanner {
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    box-sizing: content-box;
+    width: 100%;
     background: linear-gradient(0.25turn, #c5dfea, #a9d0eb, #a2b5f3);
+    align-items: center;
+    font-family: 'Kanit';
+    font-weight: 200;
 }
 
 .ourTeamHeader {
