@@ -67,7 +67,7 @@ const index = () => {
   return (
     <div className="teamPage">
       <TeamPageBanner banner={BannerInfo[1]} />
-      <div className="ExecCardContainer">
+      <div className="ExecCardContainer" id="ExecDiv">
         <div className="CurrentExecutiveTitleWrapper">
           <p className="BlackHeader">
             <arrow>⌜</arrow>Current Executive Members<arrow>⌟</arrow>
@@ -96,7 +96,7 @@ const index = () => {
           />
         </svg>
       </div>
-      <div className="GeneralCardContainer">
+      <div className="GeneralCardContainer" id="GeneralDiv">
         <div className="GeneralTitleWrapper">
           <p className="WhiteHeader">
             <arrow>⌜</arrow>General Members<arrow>⌟</arrow>
@@ -124,7 +124,7 @@ const index = () => {
           </svg>
         </div>
       </div>
-      <div className="FormerCardContainer">
+      <div className="FormerCardContainer" id="FormerDiv">
         <div className="FormerTitleWrapper">
           <p className="BlackHeader">
             <arrow>⌜</arrow>Former Executive Members<arrow>⌟</arrow>
