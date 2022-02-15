@@ -1,12 +1,12 @@
 .CardGrid {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px 10%;
-    width: 65%;
+    gap: 50px 100px;
+    max-width: 950px;
     margin: auto;
 }
 
-@media only screen and  (max-width: 1024px) {
+@media only screen and  (max-width: 1000px) {
     .CardGrid {
         justify-content: center;
     }

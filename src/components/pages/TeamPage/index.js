@@ -55,7 +55,7 @@ const index = () => {
           <p className='BlackHeader'><arrow>⌜</arrow>Current Executive Members<arrow>⌟</arrow></p>
         </div>
         <div className='CardGridContainer'>
-          <CardGrid cards={myCards}/>
+          <CardGrid cards={myCards} />
         </div>
       </div>
       <div style={{height: "150px", overflow: 'hidden'}}>
