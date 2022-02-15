@@ -7,12 +7,12 @@
   padding: 0;
   margin: 0;
   display: flex;
-  border-bottom: 2px solid blue;
+  border-bottom: 3px solid blue;
 }
 
 .tabs,
 li {
-  padding: 0.5em 1em;
+  padding: 0.3em 1em;
   margin: 0 1em;
 }
 
@@ -20,12 +20,12 @@ li {
   background: white;
   color: blue;
   font-weight: bold;
-  border: 2px solid blue;
+  border: 3px solid blue;
   border-bottom: 0;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
   position: relative;
-  top: 10px;
+  top: 7.5px;
 }
 
 .content {
