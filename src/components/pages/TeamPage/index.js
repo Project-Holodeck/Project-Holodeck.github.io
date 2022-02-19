@@ -3,27 +3,28 @@ import TeamPageBanner from "../Banner/Banner";
 import BannerInfo from "../Banner/BannerInfo.js";
 import CardGrid from "./CardGrid";
 import Card from "./card";
+import { CurrentExecInfo } from "./teamInfo";
 import "./index.css";
 
 let sampleImg =
   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAAC" +
   "UFjqAAAADUlEQVQY02NgGAWkAwABNgABGtWNFwAAAABJRU5ErkJggg==";
 
-let testingCard = (
-  <Card
-    card={{
-      className: "teamPageCardStyle1",
-      image: sampleImg,
-      name: "Name 1",
-      position: "Position 1",
-      discipline: "Discipline+Year 1",
-      link1: "#",
-      link2: "#",
-    }}
-  />
-);
-
-let myCards = [testingCard, testingCard, testingCard, testingCard];
+const currentExecCards = CurrentExecInfo.map((memberData) => {
+   return (
+      <Card 
+        card = {{
+          className: "teamPageCardStyle1",
+          image: memberData.image,
+          name: memberData.name,
+          position: memberData.position,
+          discipline: memberData.discipline,
+          link1: "#",
+          link2: "#",
+        }}
+      />
+   );
+});
 
 let testingCard2 = (
   <Card
@@ -74,7 +75,7 @@ const index = () => {
           </p>
         </div>
         <div className="CardGridContainer">
-          <CardGrid cards={myCards} />
+          <CardGrid cards={currentExecCards} />
         </div>
       </div>
       <div style={{ height: "150px", overflow: "hidden" }}>

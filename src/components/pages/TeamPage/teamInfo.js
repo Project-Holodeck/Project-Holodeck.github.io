@@ -1,31 +1,37 @@
+import AndrewIlersichImage from './images/Andrew Ilersich.png';
+import BenGoodchildImage from './images/Ben Goodchild.JPG';
+import GhamrSaeedImage from './images/Ghamr Saeed.jpg';
+import IrwinNgoImage from './images/Irwin Ngo.png';
+import ParthDuaImage from './images/Parth Dua.jpg';
+
 const CurrentExecInfo = [
     {
         name: 'Andrew Ilersich',
-        image: './images/Andrew Ilersich.png',
+        image: AndrewIlersichImage,
         position: 'Position 1',
         discipline: 'Discipline+Year 1'
     },
     {
         name: 'Ben Goodchild',
-        image: './images/Ben Goodchild.JPG',
+        image: BenGoodchildImage,
         position: 'Position 1',
         discipline: 'Discipline+Year 1'
     },
     {
         name: 'Ghamr Saeed',
-        image: './images/Ghamr Saeed.jpg',
+        image: GhamrSaeedImage,
         position: 'Position 1',
         discipline: 'Discipline+Year 1'
     },
     {
         name: 'Irwin Ngo',
-        image: './images/Irwin Ngo.png',
+        image: IrwinNgoImage,
         position: 'Position 1',
         discipline: 'Discipline+Year 1'
     },
     {
         name: 'Parth Dua',
-        image: './images/Parth Dua.jpg',
+        image: ParthDuaImage,
         position: 'Position 1',
         discipline: 'Discipline+Year 1'
     }
