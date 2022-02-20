@@ -2,11 +2,11 @@
     text-align: center;
 }
 
-.GeneralCardContainer {
-    background: linear-gradient(0.25turn, #c5dfea, #a9d0eb, #a2b5f3);
+.FormerCardContainer {
+    background: linear-gradient(rgb(70,130,180,1), rgb(25,25,112,1));
 }
 
-.CurrentExecutiveTitleWrapper, .FormerTitleWrapper {
+.CurrentExecutiveTitleWrapper {
     display: flex;
     justify-content: flex-start;
     margin-left: 10%;
@@ -14,17 +14,22 @@
 
 .GeneralTitleWrapper {
     display: flex;
+    justify-content: center;
+}
+
+.FormerTitleWrapper {
+    display: flex;
     justify-content: flex-end;
     margin-right: 10%;
 }
 
 .myStop1 {
-    stop-color: #c5dfea;
+    stop-color: lightsteelblue;
     stop-opacity: 1;
 }
 
 .myStop2 {
-    stop-color: #a2b5f3;
+    stop-color: steelblue;
     stop-opacity: 1;
 }
 
