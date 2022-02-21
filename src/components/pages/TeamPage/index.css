@@ -10,17 +10,44 @@
     display: flex;
     justify-content: flex-start;
     margin-left: 10%;
+    padding-bottom: 30px;
+
+}
+
+.ExecTitleBorderContainer {
+    width: 40%;
+    border-bottom-style: solid;
+    border-color: gray;
+    border-width: thick;
 }
 
 .GeneralTitleWrapper {
     display: flex;
     justify-content: center;
+    padding-bottom: 30px;
+}
+
+.GeneralMemberBorderContainer {
+    width: 40%;
+    border-bottom-style: solid;
+    border-color: gray;
+    border-width: thick;
+    text-align: center;
 }
 
 .FormerTitleWrapper {
     display: flex;
     justify-content: flex-end;
     margin-right: 10%;
+    padding-bottom: 30px;
+}
+
+.FormerExecBorderContainer {
+    width: 40%;
+    border-bottom-style: solid;
+    border-color: gray;
+    border-width: thick;
+    text-align: right;
 }
 
 .myStop1 {
@@ -36,15 +63,12 @@
 .BlackHeader {
     color: black;
     font-size: 40px;
+    padding-bottom: 0px;
 }
 
 .WhiteHeader {
     color: white;
     font-size: 40px;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 @media only screen and (max-width: 450px) {

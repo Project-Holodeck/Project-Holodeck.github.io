@@ -69,7 +69,8 @@ const index = () => {
     <div>
       <div>
         <TeamPageBanner banner={BannerInfo[1]} />
-        <div style={{height: '150px', overflow: 'hidden', background: 'linear-gradient(0.25turn, #a2b5f3, #a9d0eb, #c5dfea)'}} >
+        <div style={{height: '150px', overflow: 'hidden', 
+        background: 'linear-gradient(0.25turn, #a2b5f3, #a9d0eb, #c5dfea)'}} >
           <svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{height: '100%', width: '100%'}}>
             <path d="M0.00,49.99 C152.03,-49.82 363.65,150.49 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" 
             style={{stroke:'none', fill: 'white'}}>
@@ -79,9 +80,11 @@ const index = () => {
       </div>
       <div className="ExecCardContainer">
         <div className="CurrentExecutiveTitleWrapper">
-          <p className="BlackHeader">
-            <arrow>⌜</arrow>Current Executive Members<arrow>⌟</arrow>
-          </p>
+          <div className='ExecTitleBorderContainer'>
+            <p className="BlackHeader">
+              Current Executive Members
+            </p>
+          </div>
         </div>
         <div className="CardGridContainer">
           <CardGrid cards={currentExecCards} />
@@ -89,9 +92,11 @@ const index = () => {
       </div>
       <div className="GeneralCardContainer">
         <div className="GeneralTitleWrapper">
-          <p className="BlackHeader">
-            <arrow>⌜</arrow>General Members<arrow>⌟</arrow>
-          </p>
+          <div className="GeneralMemberBorderContainer">
+            <p className="BlackHeader">
+              General Members
+            </p>
+          </div>
         </div>
         <div className="CardGridContainer">
           <CardGrid cards={myCards2} />
@@ -106,9 +111,11 @@ const index = () => {
           </svg>
         </div>
         <div className="FormerTitleWrapper">
-          <p className="WhiteHeader">
-            <arrow>⌜</arrow>Former Executive Members<arrow>⌟</arrow>
-          </p>
+          <div className='FormerExecBorderContainer'>
+            <p className="WhiteHeader">
+              Former Executive Members
+            </p>
+          </div>
         </div>
         <div className="CardGridContainer">
           <CardGrid cards={myCards3} />
