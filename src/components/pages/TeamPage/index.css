@@ -10,7 +10,15 @@
     display: flex;
     justify-content: flex-start;
     margin-left: 10%;
-    padding-bottom: 30px;
+    padding-bottom: 55px;
+
+}
+
+.TeamPageBannerSVG {
+    height: 200px;
+    overflow: hidden;
+    z-index: -1;
+    background: linear-gradient(0.25turn, #a2b5f3, #a9d0eb, #c5dfea);
 
 }
 
@@ -24,7 +32,8 @@
 .GeneralTitleWrapper {
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 55px;
+    padding-top: 100px;
 }
 
 .GeneralMemberBorderContainer {
@@ -39,7 +48,7 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 10%;
-    padding-bottom: 30px;
+    padding-bottom: 55px;
 }
 
 .FormerExecBorderContainer {
@@ -77,5 +86,11 @@
         justify-content: center;
         margin-left: 0px;
         margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .TeamPageBannerSVG {
+        height: 150px;
     }
 }
