@@ -17,6 +17,9 @@ import './frontPage.css';
 
 const FrontPage = () => {
     //TODO: Change the CSS of id="frontTop-header" section to be MORE RESPONSIVE. Namely, fix the layout for mobile
+
+    
+
     return (
         <main>
             <TopSec />

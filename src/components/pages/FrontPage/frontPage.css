@@ -3,7 +3,6 @@
 .frontPageProjectSectionMainContainer {
     background-image: linear-gradient(160deg, #b8d8e0 15%, #67abe4 50%, #7893f0 100%);
     height: fit-content;
-    
 }
 
 .frontPageProjectSectionContainer {
@@ -21,13 +20,64 @@
 
 .frontPageProjectSectionProjectContainer {
     background-image: linear-gradient(135deg, #608bb3 20%, #476fb9 100%);
-    height: 800px;
+    height: 75vh;
     margin: 2% 10%;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+    'leftArrow image rightArrow'
+    'text text text';
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    width: 70vw;
+    margin-bottom: 5vh;
+}
+
+.frontPageProjectSectionRightArrow {
+    grid-area: rightArrow;
+    font-size: 8vh;
+    margin-left: 1vh;
+    color: white;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.frontPageProjectSectionLeftArrow {
+    grid-area: leftArrow;
+    font-size: 8vh;
+    margin-right: 1vw;
+    color: white; 
+    justify-content: center;
+    cursor: pointer;
+}
+
+.frontPageProjectSectionProjectImage {
+    grid-area: image;
+    height: 55vh;
+    margin-top: 7vh;
+    width: 50vw;
+}
+
+.frontPageProjectSectionProjectImage img {
+    margin: auto;
+    max-width: 50vw;
+    max-height: 50vh;
+    object-fit: cover;
+}
+
+.frontPageProjectSectionProjectText {
+    grid-area: text;
+    margin: auto;
+    margin-top: -3vh;
+    font-size: 1.8vh;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .frontPageProjectSectionReadMore {
     position: relative;
-    margin-top: 3%;
     width: fit-content;
     height: 10vh;
     background-color: white;
