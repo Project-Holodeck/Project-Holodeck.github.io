@@ -1,6 +1,5 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar.js";
-
 import {
   FrontPage,
   TeamPage,
