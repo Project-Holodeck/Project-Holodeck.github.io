@@ -1,5 +1,6 @@
 import * as React from 'react'
 import './signUp.css'
+import Footer from '../../Footer/Footer.js';
 
 export default function App() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
       <iframe src="https://docs.google.com/forms/u/0/d/e/1FAIpQLScenISOijNdX7NOdIK_biXc_xRmeWiwWkob5khDIwO43CpUEQ/formResponse?embedded=true" className="signUp-form"></iframe>
 
       </div>
+      <Footer/>
     </main>
   )
 }

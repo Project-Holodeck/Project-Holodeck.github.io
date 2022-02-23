@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&display=swap');
+
+.frontPageProjectSectionMainContainer {
+    background-image: linear-gradient(160deg, #b8d8e0 15%, #67abe4 50%, #7893f0 100%);
+    height: fit-content;
+    
+}
+
+.frontPageProjectSectionContainer {
+    padding: 1% 10% 6% 10%;
+}
+
+#frontPageProjectSectionTitle {
+    text-align: center;
+    color: white;
+    font-size: 5vh;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.frontPageProjectSectionProjectContainer {
+    background-image: linear-gradient(135deg, #608bb3 20%, #476fb9 100%);
+    height: 800px;
+    margin: 2% 10%;
+}
+
+.frontPageProjectSectionReadMore {
+    position: relative;
+    margin-top: 3%;
+    width: fit-content;
+    height: 10vh;
+    background-color: white;
+    border-radius: 10vh;
+    display: table;
+    vertical-align: middle;
+    margin: auto;
+    padding: 0px 5vh;
+    z-index: 11;
+}
+
+.frontPageProjectSectionReadMore p {
+    white-space: nowrap;
+    color: #3d5a80;
+    text-align: center;
+    font-size: 3vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+      
+}
+
+.frontPageProjectSectionReadMoreClick {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}

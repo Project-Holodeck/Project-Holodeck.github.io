@@ -4,6 +4,7 @@ import BannerInfo from "../Banner/BannerInfo.js";
 import CardGrid from "./CardGrid";
 import Card from "./card";
 import "./index.css";
+import Footer from '../../Footer/Footer.js';
 
 let sampleImg =
   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAAC" +
@@ -134,6 +135,7 @@ const index = () => {
           <CardGrid cards={myCards3} />
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar.js";
-import Footer from "./components/Footer/Footer.js";
+
 import {
   FrontPage,
   TeamPage,
@@ -20,7 +20,7 @@ function App() {
         <Route path="/projects" element={<ProjectPage />} />
         <Route path="/signup" element={<SignupPage />} />
       </Routes>
-      <Footer />
+      
     </BrowserRouter>
   );
 }
