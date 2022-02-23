@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&display=swap');
+
+.footerGradient {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    min-height: 100px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.footerTextMiddle {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-size: 0.9vw;
+    
+}
+
+.footerTextContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 9.5vw;
+}
+
+.footerMainContainer {
+    position: relative;
+    font-family: Montserrat, 'sans-serif';
+}
+
+.footerTextRight {
+    position: absolute;
+    left: 75%;
+    top: -120%;
+    font-size: 1vw;
+}
+
+.footerTextRight p {
+    margin-top: 10%;
+}
+
+.footerRightTextLine {
+    display: flex;
+    gap: 1vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.footerRightTextLine img {
+    margin-top: 1vw;
+    width: 3vw;
+    height: 100%;
+}
+
+.footerDiscord {
+    font-weight: bold;
+    color: black;
+}

@@ -1,0 +1,92 @@
+#frontBotSec-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    font-family: Montserrat, 'sans-serif';
+}
+
+#frontBotSec-gradient {
+    position: relative;
+    width: 100%;
+    height: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#frontBotSec-header {
+    position: relative;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 4vw;
+    width: 50%;
+}
+
+#frontBotSecTopSec-header-one {
+    color: #3d5a80;
+    text-shadow: 0px 0px 8px #2d7aff;
+}
+#frontBotSec-header-two {
+    color: white;
+    text-shadow: 0px 0px 8px;
+}
+
+#frontBotSec-header-second {
+    position: relative;
+    margin-top: -10%;
+    left: 50%;
+}
+
+#frontBotSec-header hr {
+    border: 2px solid white;
+    width: 7vw;
+}
+
+#frontBotSec-hr-one {
+    margin: -7% 5vw 5px;
+}
+
+#frontBotSec-header-message {
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+    padding: 0px 5vw;
+}
+
+#frontBotSec-hr-two {
+    margin-right: 5vw;
+}
+
+#frontBotSec-gradient-curve {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#frontBotSec-gradient-curve > path {
+    display: inline-block;
+    align-self: flex-end;
+}
+#frontBotSec-gradient-container,
+#frontBotSec-gradient-content {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#frontBotSec-gradient-content {
+    z-index: 1;
+}
+
+#frontBotSec-form {
+    border: none;
+    width: 55%;
+    height: 850px;
+    padding-bottom: 100px;
+}

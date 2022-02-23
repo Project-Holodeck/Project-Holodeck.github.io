@@ -1,0 +1,98 @@
+.teamPageCard {
+  display: inline-block;
+  border-radius: 40px;
+  padding: 30px 50px 5px;
+  text-align: center;
+  width: 250px;
+  height: fit-content;
+  box-shadow: 0 4px 8px #00000040;
+  transition: 0.3s;
+}
+.teamPageCard:hover {
+  box-shadow: 0 8px 16px #00000040;
+}
+
+.teamPageCardImg {
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.teamPageCardName {
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+
+.teamPageCardDesc {
+  font-family: sans-serif;
+  font-size: 0.9em;
+}
+
+.teamPageCardLinks {
+  display: inline-flex;
+  gap: 10px;
+  width: fit-content;
+  margin-top: 30px;
+}
+
+.teamPageCardLink1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  background-image: url('./images/linkedin.png');
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.teamPageCardLink2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  background-image: url('./images/world.png');
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* here for the different card styles */
+
+.teamPageCardStyle1 {
+  background: linear-gradient(0.25turn, #c5dfea, #a9d0eb, #a2b5f3);
+  color: white;
+}
+
+.teamPageCardStyle2 {
+  background-color: #e0e0e0;
+  color: black;
+}
+
+.teamPageCardStyle1 .teamPageCardLink1 {
+  background-color: white;
+}
+.teamPageCardStyle1 .teamPageCardLink1:hover {
+  background-color: #e0e0e0;
+}
+.teamPageCardStyle1 .teamPageCardLink2 {
+  background-color: white;
+}
+.teamPageCardStyle1 .teamPageCardLink2:hover {
+  background-color: #e0e0e0;
+}
+
+.teamPageCardStyle2 .teamPageCardLink1 {
+  background-color: black;
+}
+.teamPageCardStyle2 .teamPageCardLink1:hover {
+  background-color: #606060;
+}
+.teamPageCardStyle2 .teamPageCardLink2 {
+  background-color: black;
+}
+.teamPageCardStyle2 .teamPageCardLink2:hover {
+  background-color: #606060;
+}
+

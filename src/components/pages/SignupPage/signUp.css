@@ -1,0 +1,88 @@
+.signUp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    font-family: Montserrat, 'sans-serif';
+}
+
+.signUp-gradient {
+    position: relative;
+    width: 100%;
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#signUp-header {
+    position: relative;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 4vw;
+    width: 50%;
+}
+
+#signUp-header-one {
+    color: #3d5a80;
+    text-shadow: 0px 0px 8px #2d7aff;
+}
+#signUp-header-two {
+    color: white;
+    text-shadow: 0px 0px 8px;
+}
+
+#signUp-header-second {
+    position: relative;
+    margin-top: -10%;
+    left: 50%;
+}
+
+#signUp-header hr {
+    border: 2px solid white;
+    width: 7vw;
+}
+
+#signUp-hr-one {
+    margin: -7% 5vw 5px;
+}
+
+#signUp-header-message {
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+    padding: 0px 5vw;
+}
+
+#signUp-hr-two {
+    margin-right: 5vw;
+}
+
+#signUp-gradient-curve {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.signUp-gradient-container,
+.signUp-gradient-content {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.signUp-gradient-content {
+    z-index: 1;
+}
+
+.signUp-form {
+    border: none;
+    width: 55%;
+    height: 850px;
+    padding-bottom: 100px;
+}
