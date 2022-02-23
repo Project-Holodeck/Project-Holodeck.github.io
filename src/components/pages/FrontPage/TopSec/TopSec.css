@@ -20,7 +20,7 @@
     position: relative;
     margin: auto;
     margin-top: 5%;
-    font-size: 4vw;
+    font-size: 5vw;
     width: 50%;
 }
 
@@ -80,9 +80,6 @@
     z-index: 1;
 }
 
-#frontTopSec-form {
-    border: none;
-    width: 55%;
-    height: 850px;
-    padding-bottom: 100px;
+#frontTopSec-header-fig > img {
+    width: 20vw;
 }

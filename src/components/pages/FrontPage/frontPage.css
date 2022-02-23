@@ -3,7 +3,6 @@
 .frontPageProjectSectionMainContainer {
     background-image: linear-gradient(160deg, #b8d8e0 15%, #67abe4 50%, #7893f0 100%);
     height: fit-content;
-    
 }
 
 .frontPageProjectSectionContainer {
@@ -13,7 +12,7 @@
 #frontPageProjectSectionTitle {
     text-align: center;
     color: white;
-    font-size: 5vh;
+    font-size: 5vw;
     margin-top: 1%;
     margin-bottom: 5%;
     font-family: 'Montserrat', 'sans-serif';
@@ -21,32 +20,60 @@
 
 .frontPageProjectSectionProjectContainer {
     background-image: linear-gradient(135deg, #608bb3 20%, #476fb9 100%);
-    height: 800px;
+    height: 50vw;
     margin: 2% 10%;
 }
 
 .frontPageProjectSectionReadMore {
     position: relative;
-    margin-top: 3%;
     width: fit-content;
-    height: 10vh;
+    height: 5vw;
     background-color: white;
-    border-radius: 10vh;
-    display: table;
-    vertical-align: middle;
-    margin: auto;
-    padding: 0px 5vh;
-    z-index: 11;
+    border-radius: 5vw;
+    display: flex;
+    padding: 0px 2vw;
+    z-index: 1;
 }
-
-.frontPageProjectSectionReadMore p {
-    white-space: nowrap;
+.frontPageProjectSectionReadMore button:focus {
+    outline: none;
+}
+.frontPageProjectSectionReadMore button {
+    display: inline;
+    background-color: inherit;
+    border: none;
     color: #3d5a80;
-    text-align: center;
-    font-size: 3vh;
+    font-size: 2vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-      
+}
+button span {
+    position: relative;
+}
+button span:after {
+    content: '\00bb';
+
+    position: absolute;
+    top: 0;
+    right: -4vw;
+
+    opacity: 0;
+    color: inherit;
+
+    transition: 0.3s ease-in-out;
+}
+.frontPageProjectSectionReadMore:hover span {
+    transition: 0.1s ease-in-out;
+    padding-right: 2vw;
+}
+.frontPageProjectSectionReadMore:hover span:after {
+    opacity: 1;
+    right: -2vw;
+}
+.frontPageProjectSectionReadMore:active span {
+    color: inherit;
+}
+.frontPageProjectSectionReadMore:active span:after {
+    color: inherit;
 }
 
 .frontPageProjectSectionReadMoreClick {
