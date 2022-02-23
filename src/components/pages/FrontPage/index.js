@@ -6,14 +6,14 @@ import './TopSec/TopSec.css';
 //MidSec Folder
 import MidSec from './MidSec/MidSec.js';
 import './MidSec/MidSec.css';
-//BotSec Folder
-import BotSec from './BotSec/BotSec.js';
-import './BotSec/BotSec.css';
 
 //Media or Image Files
 import VrClipArt from './images/vr.png';
 import LeapHands from './images/leaphands.jpeg';
-import Slideshow from './Slideshow.js';
+
+import ProjectSection from './projectSection.js';
+
+import './frontPage.css';
 
 const FrontPage = () => {
     //TODO: Change the CSS of id="frontTop-header" section to be MORE RESPONSIVE. Namely, fix the layout for mobile
@@ -21,7 +21,7 @@ const FrontPage = () => {
         <main>
             <TopSec />
             <MidSec />
-            <BotSec />
+            <ProjectSection/>
         </main>
     );
 };
@@ -79,22 +79,4 @@ const MidSecContent = () => {
         </article>
     );
 };
-const BotSecContent = () => {
-    //See BotSec.css for id styling and usage
-    return (
-        <aside>
-            <p>Botsec Here</p>
-
-            <Slideshow />
-        </aside>
-    );
-};
-const FooterContent = () => {
-    //See BotSec.css for id styling and usage
-    return (
-        <footer>
-            <p>footer Here</p>
-        </footer>
-    );
-};
-export { FrontPage, TopSecContent, TopSecFigure, MidSecContent, BotSecContent, FooterContent };
+export { FrontPage, TopSecContent, TopSecFigure, MidSecContent };
