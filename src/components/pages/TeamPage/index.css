@@ -2,44 +2,73 @@
     text-align: center;
 }
 
-.GeneralCardContainer {
-    background: linear-gradient(0.25turn, #c5dfea, #a9d0eb, #a2b5f3);
+.FormerCardContainer {
+    background: linear-gradient(rgb(70,130,180,1), rgb(25,25,112,1));
 }
 
-.CurrentExecutiveTitleWrapper, .FormerTitleWrapper {
+.CurrentExecutiveTitleWrapper {
     display: flex;
     justify-content: flex-start;
     margin-left: 10%;
+    padding-bottom: 30px;
+
+}
+
+.ExecTitleBorderContainer {
+    width: 40%;
+    border-bottom-style: solid;
+    border-color: gray;
+    border-width: thick;
 }
 
 .GeneralTitleWrapper {
     display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.GeneralMemberBorderContainer {
+    width: 40%;
+    border-bottom-style: solid;
+    border-color: gray;
+    border-width: thick;
+    text-align: center;
+}
+
+.FormerTitleWrapper {
+    display: flex;
     justify-content: flex-end;
     margin-right: 10%;
+    padding-bottom: 30px;
+}
+
+.FormerExecBorderContainer {
+    width: 40%;
+    border-bottom-style: solid;
+    border-color: gray;
+    border-width: thick;
+    text-align: right;
 }
 
 .myStop1 {
-    stop-color: #c5dfea;
+    stop-color: lightsteelblue;
     stop-opacity: 1;
 }
 
 .myStop2 {
-    stop-color: #a2b5f3;
+    stop-color: steelblue;
     stop-opacity: 1;
 }
 
 .BlackHeader {
     color: black;
     font-size: 40px;
+    padding-bottom: 0px;
 }
 
 .WhiteHeader {
     color: white;
     font-size: 40px;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 @media only screen and (max-width: 450px) {
