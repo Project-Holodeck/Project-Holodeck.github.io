@@ -121,7 +121,9 @@ const index = () => {
         <div className="CardGridContainer">
           <CardGrid cards={myCards3} />
         </div>
+        <Footer/>
       </div>
+      
     </div>
   );
 };
@@ -166,13 +168,4 @@ export default index;
           />
         </svg>
       </div>
-<<<<<<< HEAD
-      <Footer/>
-    </div>
-  );
-};
-
-export default index;
-=======
 */
->>>>>>> cccf5d4b9306b45862395d3fd67be613ab631a41
