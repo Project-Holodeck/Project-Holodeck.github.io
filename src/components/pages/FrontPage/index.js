@@ -89,6 +89,9 @@ const BotSecContent = () => {
         </aside>
     );
 };
+{
+    /* */
+}
 const FooterContent = () => {
     //See BotSec.css for id styling and usage
     return (
