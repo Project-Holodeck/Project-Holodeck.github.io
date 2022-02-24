@@ -16,15 +16,11 @@ import ProjectSection from './projectSection.js';
 import './frontPage.css';
 
 const FrontPage = () => {
-    //TODO: Change the CSS of id="frontTop-header" section to be MORE RESPONSIVE. Namely, fix the layout for mobile
-
-    
-
     return (
         <main>
             <TopSec />
             <MidSec />
-            <ProjectSection/>
+            <ProjectSection />
         </main>
     );
 };
@@ -48,12 +44,10 @@ const TopSecContent = () => {
     );
 };
 const TopSecFigure = () => {
-    let vw = 0.01 * window.innerWidth; //by css definition
-    let imgWidth = 20 * vw;
     //See TopSec.css for id styling and usage
     return (
         <figure id="frontTopSec-header-fig">
-            <img src={VrClipArt} alt="" width={`${imgWidth}`} />
+            <img src={VrClipArt} alt="" />
         </figure>
     );
 };

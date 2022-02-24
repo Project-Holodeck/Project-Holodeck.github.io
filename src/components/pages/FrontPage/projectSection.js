@@ -38,9 +38,11 @@ const ProjectSection = () => {
         
         
         <a className="frontPageProjectSectionReadMoreClick" href="/projects">
-          <div className="frontPageProjectSectionReadMore">
-            <p>Read More!</p>
-          </div>
+            <div className="frontPageProjectSectionReadMore">
+                <button>
+                    <span>Read More!</span>
+                </button>
+            </div>
         </a>
       </div>
       <Footer/>
@@ -48,4 +50,5 @@ const ProjectSection = () => {
   )
 }
 
-export default ProjectSection
+export default ProjectSection;
+
