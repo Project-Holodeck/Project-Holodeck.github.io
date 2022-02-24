@@ -56,21 +56,33 @@
 .frontPageProjectSectionProjectImage {
     grid-area: image;
     height: 55vh;
-    margin-top: 7vh;
-    width: 50vw;
+    width: 60vw;
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.frontPageProjectSectionProjectSelection {
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 60vw;
+    height: 8vh;
+    margin-top: -8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .frontPageProjectSectionProjectImage img {
     margin: auto;
-    max-width: 50vw;
-    max-height: 50vh;
+    width: 60vw;
+    max-height: 55vh;
     object-fit: cover;
 }
 
 .frontPageProjectSectionProjectText {
     grid-area: text;
     margin: auto;
-    margin-top: -3vh;
+    margin-top: 0vh;
     font-size: 1.8vh;
     color: white;
     font-family: 'Montserrat', sans-serif;

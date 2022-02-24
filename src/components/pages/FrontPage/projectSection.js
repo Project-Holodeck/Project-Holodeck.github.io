@@ -33,7 +33,7 @@ const ProjectSection = () => {
           <div className="frontPageProjectSectionRightArrow" onClick={() => projectSetNum(false)}>
               <p>〉</p>
           </div>
-          <ProjectSlide image={projectSlideInfo[projectNum].image} text={projectSlideInfo[projectNum].text}/>
+          <ProjectSlide image={projectSlideInfo[projectNum].image} text={projectSlideInfo[projectNum].text} projectNum={projectNum}/>
         </div>
         
         
