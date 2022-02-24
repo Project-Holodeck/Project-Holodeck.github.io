@@ -30,5 +30,4 @@ export const projectSlideInfo = [
         text: "This 3D Room Scanner can easily scan a room to develop VR landscapes",
         image: Scanner,
     },
-    
 ]

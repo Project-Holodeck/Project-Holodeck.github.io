@@ -15,10 +15,11 @@
 }
 
 .ExecTitleBorderContainer {
-    width: 40%;
+    width: fit-content;
     border-bottom-style: solid;
     border-color: gray;
     border-width: thick;
+    margin-bottom: 40px;
 }
 
 .GeneralTitleWrapper {
@@ -28,11 +29,13 @@
 }
 
 .GeneralMemberBorderContainer {
-    width: 40%;
+    width: fit-content;
     border-bottom-style: solid;
     border-color: gray;
     border-width: thick;
     text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 .FormerTitleWrapper {
@@ -43,11 +46,12 @@
 }
 
 .FormerExecBorderContainer {
-    width: 40%;
+    width: fit-content;
     border-bottom-style: solid;
     border-color: gray;
     border-width: thick;
     text-align: right;
+    margin-bottom: 40px;
 }
 
 .myStop1 {
@@ -64,11 +68,15 @@
     color: black;
     font-size: 40px;
     padding-bottom: 0px;
+    margin: 0;
+    white-space: nowrap;
 }
 
 .WhiteHeader {
     color: white;
     font-size: 40px;
+    margin: 0;
+    white-space: nowrap;
 }
 
 @media only screen and (max-width: 450px) {
