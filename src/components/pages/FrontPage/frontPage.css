@@ -63,13 +63,17 @@
 }
 
 .frontPageProjectSectionProjectSelection {
-    background-color: rgb(255, 255, 255, 0.5);
+    background-color: rgba(187, 187, 187, 0.5);
     width: 60vw;
     height: 4vw;
     margin-top: -4vw;
     display: flex;
-    flex-direction: row;
+    overflow: hidden;
     justify-content: center;
+}
+
+.frontPageProjectSectionProjectSelection svg {
+    box-shadow: 10 10 10 10;
 }
 
 .frontPageProjectSectionProjectImage img {
