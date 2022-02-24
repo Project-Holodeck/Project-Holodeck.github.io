@@ -70,8 +70,7 @@ const index = () => {
     <div>
       <div>
         <TeamPageBanner banner={BannerInfo[1]} />
-        <div style={{height: '150px', overflow: 'hidden', 
-        background: 'linear-gradient(0.25turn, #a2b5f3, #a9d0eb, #c5dfea)'}} >
+        <div className='TeamPageBannerSVG' >
           <svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{height: '100%', width: '100%'}}>
             <path d="M0.00,49.99 C152.03,-49.82 363.65,150.49 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" 
             style={{stroke:'none', fill: 'white'}}>
@@ -83,7 +82,7 @@ const index = () => {
         <div className="CurrentExecutiveTitleWrapper">
           <div className='ExecTitleBorderContainer'>
             <p className="BlackHeader">
-              Current Executive Members
+              Current Executives
             </p>
           </div>
         </div>
@@ -95,7 +94,7 @@ const index = () => {
         <div className="GeneralTitleWrapper">
           <div className="GeneralMemberBorderContainer">
             <p className="BlackHeader">
-              General Members
+              Current Members
             </p>
           </div>
         </div>
@@ -114,7 +113,7 @@ const index = () => {
         <div className="FormerTitleWrapper">
           <div className='FormerExecBorderContainer'>
             <p className="WhiteHeader">
-              Former Executive Members
+              Former Executives
             </p>
           </div>
         </div>
@@ -129,43 +128,3 @@ const index = () => {
 };
 
 export default index;
-
-/*
-      <div style={{ height: "150px", overflow: "hidden" }}>
-        <svg
-          viewBox="0 0 500 150"
-          preserveAspectRatio="none"
-          style={{ height: "150px", overflow: "hidden", width: "100%" }}
-        >
-          <defs>
-            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" className="myStop1" />
-              <stop offset="100%" className="myStop2" />
-            </linearGradient>
-          </defs>
-          <path
-            d="M-2.59,64.64 C233.29,196.88 321.33,-64.64 500.22,69.56 L500.00,150.00 L0.00,150.00 Z"
-            fill="url(#grad1)"
-          />
-        </svg>
-      </div>
-
-      <div
-        style={{
-          height: "150px",
-          overflow: "hidden",
-          background: "linear-gradient(0.25turn, #c5dfea, #a9d0eb, #a2b5f3)",
-        }}
-      >
-        <svg
-          viewBox="0 0 500 150"
-          preserveAspectRatio="none"
-          style={{ height: "150px", overflow: "hidden", width: "100%" }}
-        >
-          <path
-            d="M-2.59,64.64 C233.29,196.88 321.33,-64.64 500.22,69.56 L500.00,150.00 L0.00,150.00 Z"
-            style={{ stroke: "none", fill: "white" }}
-          />
-        </svg>
-      </div>
-*/
