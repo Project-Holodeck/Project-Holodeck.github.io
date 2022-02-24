@@ -10,6 +10,7 @@ import leapmotion from "./images/leapmotion.jpeg";
 import roomscanner from "./images/roomscanner.jpg";
 import shoes from "./images/shoes.jpg";
 import treadmill from "./images/treadmill.jpg";
+import Footer from '../../Footer/Footer.js';
 
 const index = () => {
   return (
@@ -32,6 +33,7 @@ const index = () => {
           <ProjectContent project={projectInfo[4]} imgSrc={leapmotion} />
         </div>
       </Tabs>
+      <Footer/>
     </>
   );
 };

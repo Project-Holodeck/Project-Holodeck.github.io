@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&display=swap');
+
+.frontPageProjectSectionMainContainer {
+    background-image: linear-gradient(160deg, #b8d8e0 15%, #67abe4 50%, #7893f0 100%);
+    height: fit-content;
+}
+
+.frontPageProjectSectionContainer {
+    padding: 1% 10% 6% 10%;
+}
+
+#frontPageProjectSectionTitle {
+    text-align: center;
+    color: white;
+    font-size: 2.5vw;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.frontPageProjectSectionProjectContainer {
+    background-image: linear-gradient(135deg, #608bb3 20%, #476fb9 100%);
+    height: 37.5vw;
+    margin: 2% 10%;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+    'leftArrow image rightArrow'
+    'text text text';
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    width: 70vw;
+    margin-bottom: 3vw;
+}
+
+.frontPageProjectSectionRightArrow {
+    grid-area: rightArrow;
+    font-size: 4vw;
+    margin-left: 0.5vw;
+    color: white;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.frontPageProjectSectionLeftArrow {
+    grid-area: leftArrow;
+    font-size: 4vw;
+    margin-right: 1vw;
+    color: white; 
+    justify-content: center;
+    cursor: pointer;
+}
+
+.frontPageProjectSectionProjectImage {
+    grid-area: image;
+    height: 27.5vw;
+    width: 60vw;
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.frontPageProjectSectionProjectSelection {
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 60vw;
+    height: 4vw;
+    margin-top: -4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.frontPageProjectSectionProjectImage img {
+    margin: auto;
+    width: 60vw;
+    max-height: 27.5vw;
+    object-fit: cover;
+}
+
+.frontPageProjectSectionProjectText {
+    grid-area: text;
+    margin: auto;
+    margin-top: 0;
+    font-size: 1.1vw;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.frontPageProjectSectionReadMore {
+    position: relative;
+    width: fit-content;
+    height: 5vw;
+    background-color: white;
+    border-radius: 5vw;
+    display: flex;
+    padding: 0px 2vw;
+    z-index: 1;
+    flex-direction: row;
+    cursor: pointer;
+    
+}
+.frontPageProjectSectionReadMore button:focus {
+    outline: none;
+}
+.frontPageProjectSectionReadMore button {
+    display: inline;
+    background-color: inherit;
+    border: none;
+    color: #3d5a80;
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 100vw;
+}
+button span {
+    position: relative;
+    transition: 0.3s ease-in-out;
+    opacity: 1;
+}
+button span:after {
+    content: '\00bb';
+    font-size: 2.5vw;
+    margin-top: -0.75vw;
+    position: absolute;
+    opacity: 0;
+    color: inherit;
+    right: -4vw;
+    transition: 0.3s ease-in-out;
+    
+}
+.frontPageProjectSectionReadMore:hover span {
+    transition: 0.3s ease-in-out;
+    padding-right: 2vw;
+}
+.frontPageProjectSectionReadMore:hover span:after {
+    opacity: 1;
+    right: -1vw;
+    transition: 0.3s ease-in-out;
+}
+.frontPageProjectSectionReadMore:active span {
+    color: inherit;
+}
+.frontPageProjectSectionReadMore:active span:after {
+    color: inherit;
+}
+
+.frontPageProjectSectionReadMoreClick {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}
