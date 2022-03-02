@@ -25,38 +25,57 @@
 }
 
 #frontTopSecTopSec-header-one {
-    color: #3d5a80;
-    text-shadow: 0px 0px 8px #2d7aff;
-}
-#frontTopSec-header-two {
     color: white;
     text-shadow: 0px 0px 8px;
+}
+
+#frontTopSec-header-first {
+    position: relative;
+    left: 10%;
+}
+
+#frontTopSec-header-two {
+    color: #3d5a80;
+    text-shadow: 0px 0px 8px #2d7aff;
 }
 
 #frontTopSec-header-second {
     position: relative;
     margin-top: -10%;
-    left: 50%;
+    left: 40%;
 }
 
-#frontTopSec-header hr {
-    border: 2px solid white;
+#frontTopSec-header-bottom {
+    display: flex;
+    gap: 10vw;
+}
+
+#frontTopSec-message {
+    width: fit-content;
+    margin-left: 15vw;
+}
+
+#frontTopSec-message hr {
+    border: 1.5px solid white;
+    border-color: white;
+    background-color: white;
     width: 7vw;
 }
 
 #frontTopSec-hr-one {
-    margin: -7% 5vw 5px;
+    margin-right: auto;
+    margin-left: 0;
 }
 
 #frontTopSec-header-message {
-    font-size: 1.5vw;
+    margin: 0;
+    font-size: 2.2vw;
     color: white;
-    text-align: center;
-    padding: 0px 5vw;
 }
 
 #frontTopSec-hr-two {
-    margin-right: 5vw;
+    margin-right: 0;
+    margin-left: auto;
 }
 
 #frontTopSec-gradient-curve {
@@ -81,5 +100,8 @@
 }
 
 #frontTopSec-header-fig > img {
-    width: 20vw;
+    position: relative;
+    width: 25vw;
+    top: -5vw;
+    left: 10vw;
 }

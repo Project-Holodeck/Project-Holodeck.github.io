@@ -24,7 +24,7 @@ const ProjectSection = () => {
   return (
     <div className="frontPageProjectSectionMainContainer">
       <div className="frontPageProjectSectionContainer">
-        <p id="frontPageProjectSectionTitle">『Our Projects』</p>
+        <p id="frontPageProjectSectionTitle">Our Projects</p>
 
         <div className="frontPageProjectSectionProjectContainer">
           <div className="frontPageProjectSectionLeftArrow" onClick={() => projectSetNum(true)}>

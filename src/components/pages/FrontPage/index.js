@@ -28,17 +28,28 @@ const FrontPage = () => {
 const TopSecContent = () => {
     //See TopSec.css for id styling and usage
     return (
-        <header id="frontTopSec-header">
-            <p>
+        <header>
+            <div id="frontTopSec-header">
+            <p id="frontTopSec-header-first">
                 <span id="frontTopSecTopSec-header-one">PROJECT</span>
             </p>
             <p id="frontTopSec-header-second">
                 <span id="frontTopSec-header-two">HOLODECK</span>
             </p>
-            <div>
-                <hr id="frontTopSec-hr-one"></hr>
-                <p id="frontTopSec-header-message">A Design Team for Virtual Reality [VR] and Augmented Reality [AR]</p>
-                <hr id="frontTopSec-hr-two"></hr>
+            </div>
+            <div id="frontTopSec-header-bottom">
+                <figure id="frontTopSec-header-fig">
+                    <img src={VrClipArt} alt="" />
+                </figure>
+                <div id="frontTopSec-message">
+                    <hr id="frontTopSec-hr-one"></hr>
+                    <p id="frontTopSec-header-message">A design team for<br/> Virtual Reality  
+                        <span style={{color: '#4599FE', fontWeight: 900}}> 「VR」 </span> 
+                        and <br/>Augmented Reality 
+                        <span style={{color: '#265792', fontWeight: 900}}> 「AR」 </span>
+                    </p>
+                    <hr id="frontTopSec-hr-two"></hr>
+                </div>
             </div>
         </header>
     );
@@ -46,9 +57,8 @@ const TopSecContent = () => {
 const TopSecFigure = () => {
     //See TopSec.css for id styling and usage
     return (
-        <figure id="frontTopSec-header-fig">
-            <img src={VrClipArt} alt="" />
-        </figure>
+        <>
+        </>
     );
 };
 const MidSecContent = () => {
@@ -65,10 +75,14 @@ const MidSecContent = () => {
                 </figure>
             </div>
             <section>
-                <h1>Hi</h1>
+                <h1 id="frontMidAbout">「About</h1>
+                <h1 id="frontMidSecUTOPH">UTOPH」</h1>
                 <p>
                     If Signor Leonato be her father, she would not have his head on her shoulders for all Messina, as like him as she is. I wonder that you will
-                    still be talking, Signor Benedick. Nobody marks you. What, my dear Lady Disdain! Are you yet living? Is it possible disdain should die while
+                    still be talking, Signor Benedick. Nobody marks you. What, my dear Lady Disdain!
+                    <br/>
+                    <br/>
+                    Are you yet living? Is it possible disdain should die while
                     she hath such meet food to feed it as Signor Benedick? Courtesy itself must convert to disdain if you come in her presence. Much Ado About
                     Nothing I.iv.
                 </p>
