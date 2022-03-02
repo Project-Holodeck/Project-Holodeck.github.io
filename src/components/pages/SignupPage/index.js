@@ -9,8 +9,8 @@ export default function App() {
         <div className="signUp-gradient">
           <div class="signUp-gradient-content">
             <div id="signUp-header">
-              <p>『<span id="signUp-header-one">DESIGN TEAM</span></p>
-              <p id="signUp-header-second"><span id="signUp-header-two">SIGN UP</span>』</p>
+              <p><span id="signUp-header-one">DESIGN TEAM</span></p>
+              <p id="signUp-header-second"><span id="signUp-header-two">SIGN UP</span></p>
               <hr id="signUp-hr-one"></hr>
               <p id="signUp-header-message">If you'd like to join our club, feel free to contact us here. We look forward to hearing from you!</p>
               <hr id="signUp-hr-two"></hr>

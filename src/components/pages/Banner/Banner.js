@@ -7,12 +7,13 @@ const TeamPageBanner = ({ banner }) => {
     <div className="Banner">
       <div className="TitleWrapper">
         <p className="Header">
-          <arrow>⌜</arrow>Our<x> {banner.title}</x>
-          <arrow>⌟</arrow>
+          Our<x> {banner.title}</x>
         </p>
       </div>
       <div className="BlurbWrapper">
+        <hr id="frontTopSec-hr-one"></hr>
         <p>{banner.blurb}</p>
+        <hr id="frontTopSec-hr-two"></hr>
       </div>
     </div>
   );

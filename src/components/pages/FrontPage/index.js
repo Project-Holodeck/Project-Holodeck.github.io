@@ -30,12 +30,12 @@ const TopSecContent = () => {
     return (
         <header id="frontTopSec-header">
             <p>
-                『<span id="frontTopSecTopSec-header-one">PROJECT</span>
+                <span id="frontTopSecTopSec-header-one">PROJECT</span>
             </p>
             <p id="frontTopSec-header-second">
-                <span id="frontTopSec-header-two">HOLODECK</span>』
+                <span id="frontTopSec-header-two">HOLODECK</span>
             </p>
-            <div id="frontTop-header-div">
+            <div>
                 <hr id="frontTopSec-hr-one"></hr>
                 <p id="frontTopSec-header-message">A Design Team for Virtual Reality [VR] and Augmented Reality [AR]</p>
                 <hr id="frontTopSec-hr-two"></hr>

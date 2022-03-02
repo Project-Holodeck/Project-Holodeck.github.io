@@ -16,6 +16,7 @@ const index = () => {
   return (
     <>
       <ProjectPageBanner banner={BannerInfo[0]} />
+      
       <Tabs>
         <div label="Treadmill">
           <ProjectContent project={projectInfo[0]} imgSrc={treadmill} />
