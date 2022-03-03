@@ -42,21 +42,33 @@
 #signUp-header hr {
   border: 2px solid white;
   width: 7vw;
+  background-color: white;
 }
 
 #signUp-hr-one {
-  margin: -7% 5vw 5px;
+  position: relative;
+  margin-right: auto;
+  margin-left: 0;
+  margin-bottom: 0.15em;
+}
+
+#signUp-header-message-box {
+  width: fit-content;
+  margin: auto;
 }
 
 #signUp-header-message {
   font-size: 1.5vw;
   color: white;
   text-align: center;
-  padding: 0px 5vw;
+  margin: 0;
+  padding: 0;
 }
 
 #signUp-hr-two {
-  margin-right: 5vw;
+  margin-top: 0.15em;
+  margin-right: 0;
+  margin-left: auto;
 }
 
 #signUp-gradient-curve {
