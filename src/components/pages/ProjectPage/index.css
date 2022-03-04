@@ -1,6 +1,8 @@
 .projectContainer {
-    padding: 0 8rem;
+    padding: 5vw 5vw;
     display: flex;
+    gap: 5em;
+
 }
 
 .projectImageContainer {
@@ -13,12 +15,15 @@
 .projectImage {
     max-width: 100%;
     max-height: 25rem;
+    min-height: 10rem;
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgb(150, 150, 150);
 }
 
 .projectDetailContainer {
-    padding: 5rem 4rem;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .projectBorderContainerTop {
