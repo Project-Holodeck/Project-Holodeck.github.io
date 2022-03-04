@@ -4,6 +4,7 @@ import BannerInfo from "../Banner/BannerInfo.js";
 import CardGrid from "./CardGrid";
 import Card from "./card";
 import { CurrentExecInfo } from "./teamInfo";
+import { MemberCardInfo } from './MemberCardInfo.js';
 import "./index.css";
 import Footer from '../../Footer/Footer.js';
 
@@ -25,6 +26,22 @@ const currentExecCards = CurrentExecInfo.map((memberData) => {
         }}
       />
    );
+});
+
+const memberCards = MemberCardInfo.map((memberData) => {
+  return (
+     <Card 
+       card = {{
+         className: "teamPageCardStyle1",
+         image: memberData.image,
+         name: memberData.name,
+         position: memberData.position,
+         discipline: memberData.discipline,
+         link1: "#",
+         link2: "#",
+       }}
+     />
+  );
 });
 
 let testingCard2 = (
@@ -99,7 +116,7 @@ const index = () => {
           </div>
         </div>
         <div className="CardGridContainer">
-          <CardGrid cards={myCards2} />
+          <CardGrid cards={memberCards} />
         </div>
       </div>
       <div className="FormerCardContainer">
