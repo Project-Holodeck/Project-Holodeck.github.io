@@ -1,11 +1,12 @@
 const info = [
   {
     title: "Projects",
-    blurb: "Find out more about the projects we have done!",
+    blurbOne: "Find out more about the projects we have done!",
   },
   {
     title: "Team",
-    blurb: "Wondering who makes up our design team?",
+    blurbOne: "Wondering who makes up our design team?",
+    blurbTwo: "Read here to learn more about us!",
   },
 ];
 

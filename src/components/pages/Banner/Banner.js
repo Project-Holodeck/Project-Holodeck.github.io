@@ -12,7 +12,7 @@ const TeamPageBanner = ({ banner }) => {
       </div>
       <div className="BlurbWrapper">
         <hr id="frontTopSec-hr-one"></hr>
-        <p>{banner.blurb}</p>
+        <p>{banner.blurbOne}<br/>{banner.blurbTwo}</p>
         <hr id="frontTopSec-hr-two"></hr>
       </div>
     </div>
