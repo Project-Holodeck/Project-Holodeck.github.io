@@ -29,8 +29,7 @@
     position: relative;
     font-family: 'Montserrat', 'sans-serif';
     z-index: 0;
-    margin-top: -10vw;
-    padding-top: 25px;
+    margin-top: -5vw;
 }
 
 .footerTextRight {

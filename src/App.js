@@ -7,6 +7,8 @@ import {
   SignupPage,
 } from "./components/pages/imports";
 
+import Footer from './components/Footer/Footer.js';
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -19,7 +21,6 @@ function App() {
         <Route path="/projects" element={<ProjectPage />} />
         <Route path="/signup" element={<SignupPage />} />
       </Routes>
-      
     </BrowserRouter>
   );
 }

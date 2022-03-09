@@ -6,27 +6,7 @@ import { useEffect } from 'react';
 export default function App() {
   //TODO: Fix eventListeners
   //I tried to fix scrolling with event listeners, but they are not working properly. if it is not a huge deal, it is better to simply remove these event listeners altogether.
-    useEffect(() => {
-        console.log('event listener added');
-        let elem = document.querySelector('iframe');
-        let parent = document.querySelector('.signUp-form');
-        parent.addEventListener(
-            'focusin',
-            () => {
-                elem.scrolling = 'yes';
-                elem.style.border = '1px solid orange';
-            },
-            true
-        );
 
-        parent.addEventListener(
-            'focusout',
-            () => {
-                elem.scrolling = 'no';
-            },
-            true
-        );
-    }, []);
     return (
         <>
             <main>
@@ -64,7 +44,7 @@ export default function App() {
                         </div>
                     </div>
 
-                    <section className="signUp-form">
+                    <section className="signUp-form" style={{minHeight: 1.4*window.innerHeight}}>
                         <iframe
                             src="https://docs.google.com/forms/u/0/d/e/1FAIpQLScenISOijNdX7NOdIK_biXc_xRmeWiwWkob5khDIwO43CpUEQ/formResponse?embedded=true"
                             scrolling="no"

@@ -3,6 +3,8 @@ import { useState } from 'react';
 import ProjectSlide from './projectSlide.js';
 import { projectSlideInfo } from './projectSlideInfo.js';
 
+import Footer from '../../Footer/Footer.js';
+
 const ProjectSection = () => {
     const [projectNum, setProjectNum] = useState(0);
 
@@ -40,7 +42,7 @@ const ProjectSection = () => {
                     </div>
                 </a>
             </div>
-            
+            <Footer/>
         </div>
     );
 };

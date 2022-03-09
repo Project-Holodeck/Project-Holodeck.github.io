@@ -20,12 +20,11 @@ import './frontPage.css';
 const FrontPage = () => {
     return (
         <>
-            <main>
+            <main style={{display: "flex", flexDirection: "column", justifyContent: "space-between"}}>
                 <TopSec />
                 <MidSec />
                 <ProjectSection />
             </main>
-            <Footer />
         </>
     );
 };

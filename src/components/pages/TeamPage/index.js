@@ -6,6 +6,7 @@ import Card from "./card";
 import { CurrentExecInfo } from "./teamInfo";
 import { MemberCardInfo } from './MemberCardInfo.js';
 import "./index.css";
+
 import Footer from '../../Footer/Footer.js';
 
 let sampleImg =
