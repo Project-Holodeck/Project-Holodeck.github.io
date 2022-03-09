@@ -4,6 +4,8 @@ import Footer from '../../Footer/Footer.js';
 import { useEffect } from 'react';
 
 export default function App() {
+  //TODO: Fix eventListeners
+  //I tried to fix scrolling with event listeners, but they are not working properly. if it is not a huge deal, it is better to simply remove these event listeners altogether.
     useEffect(() => {
         console.log('event listener added');
         let elem = document.querySelector('iframe');
