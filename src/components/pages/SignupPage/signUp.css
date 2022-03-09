@@ -1,99 +1,110 @@
+#signUp-Main {
+    height: 100%;
+}
 .signUp-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: #FFFFFF;
-  font-family: Montserrat, 'sans-serif';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    font-family: Montserrat, 'sans-serif';
 }
 
 .signUp-gradient {
-  position: relative;
-  width: 100%;
-  height: 40vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 #signUp-header {
-  position: relative;
-  margin: auto;
-  margin-top: 5%;
-  font-size: 4vw;
-  width: 50%;
+    position: relative;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 4vw;
+    width: 50%;
 }
 
 #signUp-header-one {
-  color: #3d5a80;
-  text-shadow: 0px 0px 8px #2d7aff;
+    color: #3d5a80;
+    text-shadow: 0px 0px 8px #2d7aff;
 }
 #signUp-header-two {
-  color: white;
-  text-shadow: 0px 0px 8px;
+    color: white;
+    text-shadow: 0px 0px 8px;
 }
 
 #signUp-header-second {
-  position: relative;
-  margin-top: -10%;
-  left: 50%;
+    position: relative;
+    margin-top: -10%;
+    left: 50%;
 }
 
 #signUp-header hr {
-  border: 2px solid white;
-  width: 7vw;
-  background-color: white;
+    border: 2px solid white;
+    width: 7vw;
+    background-color: white;
 }
 
 #signUp-hr-one {
-  position: relative;
-  margin-right: auto;
-  margin-left: 0;
-  margin-bottom: 0.15em;
+    position: relative;
+    margin-right: auto;
+    margin-left: 0;
+    margin-bottom: 0.15em;
 }
 
 #signUp-header-message-box {
-  width: fit-content;
-  margin: auto;
+    width: fit-content;
+    margin: auto;
 }
 
 #signUp-header-message {
-  font-size: 1.5vw;
-  color: white;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 #signUp-hr-two {
-  margin-top: 0.15em;
-  margin-right: 0;
-  margin-left: auto;
+    margin-top: 0.15em;
+    margin-right: 0;
+    margin-left: auto;
 }
 
 #signUp-gradient-curve {
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-.signUp-gradient-container, .signUp-gradient-content {
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
+.signUp-gradient-container,
+.signUp-gradient-content {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
 }
 
 .signUp-gradient-content {
-  z-index: 10;
+    z-index: 2;
 }
 
 .signUp-form {
-  border: none;
-  width: 55%;
-  height: 850px;
-  padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 100%;
+    min-height: 850px;
+    padding-bottom: 100px;
+}
+
+.signUp-form iframe {
+    border: none;
+    flex: 1;
 }

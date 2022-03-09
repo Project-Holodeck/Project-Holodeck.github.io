@@ -4,10 +4,29 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh !important;
+}
+#root {
+    /*fix for hidden navbar div*/
+    overflow-x: hidden;
+
+    /* #root and main should take up the space until the edge of the viewport at minimum*/
+    flex: 1;
+
+    /*setting child elements to fit remaining space too...*/
+    display: flex; 
+    flex-direction: column;
+}
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
-#root {
-    overflow-x: hidden;
+.contentWrapper {
+    flex: 1;
 }
 
 a {

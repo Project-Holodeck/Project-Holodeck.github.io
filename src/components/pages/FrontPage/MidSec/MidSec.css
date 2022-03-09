@@ -9,12 +9,11 @@
 }
 
 #imgDiv img {
-    width: 35vw;    
+    width: 35vw;
     box-shadow: -2vw -2vw 0vw 0vw rgb(135, 135, 255);
 }
 
 #frontMidSecArticle section h1 {
-    
     margin: 0;
     font-size: 2vw;
 }
