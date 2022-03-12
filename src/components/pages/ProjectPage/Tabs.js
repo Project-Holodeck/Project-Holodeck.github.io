@@ -10,18 +10,20 @@ const Tabs = ({ children }) => {
   };
   return (
     <div className="container">
-      <ul className="tabs">
-        {children.map((tab) => {
-          const label = tab.props.label;
-          return (
-            <li className={label == activeTab ? "current" : ""} key={label}>
-              <a href="#" onClick={(e) => handleClick(e, label)}>
-                {label}
-              </a>
-            </li>
-          );
-        })}
-      </ul>
+      <div className="tabsOver">
+        <ul className="tabs">
+          {children.map((tab) => {
+            const label = tab.props.label;
+            return (
+              <li className={label == activeTab ? "current" : ""} key={label}>
+                <a href="#" onClick={(e) => handleClick(e, label)}>
+                  {label}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
       {children.map((one) => {
         if (one.props.label == activeTab)
           return (

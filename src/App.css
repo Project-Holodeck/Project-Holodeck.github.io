@@ -37,3 +37,27 @@ a {
 * {
     box-sizing: border-box;
 }
+
+
+
+    ::-webkit-scrollbar {
+    width: 10px;
+    height: 8px; 
+    
+  }   
+
+  ::-webkit-scrollbar-track {
+    background: rgb(243, 243, 243);
+    padding:  2px;
+  }
+    
+  ::-webkit-scrollbar-thumb {
+    background: rgb(168, 168, 168, 0.5);
+    border-radius: 10px;
+    width: 5px;
+    padding: 2px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(168, 168, 168, 1);
+  }

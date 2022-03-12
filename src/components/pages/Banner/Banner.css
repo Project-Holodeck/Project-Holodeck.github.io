@@ -1,5 +1,5 @@
 .Banner {
-  height: 25vw;
+  height: fit-content;
   justify-content: center;
   align-items: center;
   background: linear-gradient(0.25turn, #a2b5f3, #a9d0eb, #c5dfea);
@@ -8,7 +8,7 @@
 .Header {
   color: #3d5a80;
   text-align: center;
-  font-size: 5vw;
+  font-size: 80px;
   text-shadow: 0px 0px 8px #2d7aff;
   padding-top: 1em;
   padding-bottom: 0.25em;
@@ -18,31 +18,43 @@
 
 .Header x {
   color: white;
-  font-size: 5vwpx;
   text-shadow: 0px 0px 8px;
-}
-.Header arrow {
-  color: black;
-  font-size: 65px;
-  text-shadow: black 2px 2px 2px;
 }
 
 .BlurbWrapper hr {
   border: 2px solid white;
-  width: 7vw;
+  width: 100px;
   background-color: white;
 }
 
 .BlurbWrapper {
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 25px;
   margin: auto;
   color: white;
-  padding-bottom: 0px;
+  padding-bottom: 1px;
   padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
   width: fit-content;
 }
 
 .BlurbWrapper p {
   margin: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .Header {
+    font-size: 40px;
+  }
+
+  .BlurbWrapper {
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
+
+  .BlurbWrapper hr {
+    width: 50px;
+    border: 1px solid white;
+  }
 }

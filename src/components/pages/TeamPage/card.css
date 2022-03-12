@@ -16,12 +16,12 @@
 .teamPageCardName {
   font-weight: 600;
   font-family: sans-serif;
-  font-size: 1.2em;
+  font-size: 25px;
 }
 
 .teamPageCardDesc {
   font-family: sans-serif;
-  font-size: 0.9em;
+  font-size: 15px;
 }
 
 .teamPageCardLinks {
@@ -63,6 +63,9 @@
   color: black;
 }
 
+
+
+
 /*
 .teamPageCardStyle1 .teamPageCardLink1 {
   background-color: white;
@@ -91,3 +94,17 @@
 }
 */
 
+@media only screen and (max-width: 900px) {
+  .teamPageCardName {
+    font-size: 18px;
+  }
+
+  .teamPageCardDesc {
+    font-size: 12px;
+  }
+
+  .teamPageCardImg {
+    height: 150px;
+    width: 150px;
+  }
+}

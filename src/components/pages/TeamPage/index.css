@@ -19,6 +19,7 @@
     overflow: hidden;
     z-index: -1;
     background: linear-gradient(0.25turn, #a2b5f3, #a9d0eb, #c5dfea);
+    margin-top: -13px;
 
 }
 
@@ -100,5 +101,11 @@
 @media only screen and (max-width: 375px) {
     .TeamPageBannerSVG {
         height: 150px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .BlackHeader, .WhiteHeader {
+        font-size: 20px;
     }
 }
