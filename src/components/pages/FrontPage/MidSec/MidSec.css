@@ -4,23 +4,26 @@
     height: fit-content;
     display: flex;
     justify-content: space-around;
-    margin: 0vw 10vw 5vw 10vw;
+    padding: 0vw 10vw 5vw 10vw;
     gap: 5vw;
+    flex-wrap: wrap;
+    
 }
 
 #imgDiv img {
-    width: 35vw;
+    width: 500px;
     box-shadow: -2vw -2vw 0vw 0vw rgb(135, 135, 255);
 }
 
 #frontMidSecArticle section h1 {
     margin: 0;
-    font-size: 2vw;
+    font-size: 35px;
 }
 
 #frontMidSecArticle section p {
-    font-size: 1.3vw;
+    font-size: 20px;
     font-family: 'Montserrat';
+    max-width: 500px;
 }
 
 #frontMidSecArticle #frontMidSecUTOPH {
@@ -30,4 +33,21 @@
 
 #frontMidSecArticle #frontMidAbout {
     margin-top: -5vw;
+}
+
+@media only screen and (max-width: 900px) {
+    #frontMidSecArticle section p {
+        font-size: 10px;
+        font-family: 'Montserrat';
+    }
+
+    #frontMidSecArticle section h1 {
+        font-size: 15px;
+    }
+
+    #imgDiv img {
+        width: 250px;
+        margin: 10px;
+        box-shadow: -2vw -2vw 0vw 0vw rgb(135, 135, 255);
+    }
 }

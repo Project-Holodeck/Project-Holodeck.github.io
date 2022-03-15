@@ -82,12 +82,18 @@ const MidSecContent = () => {
                 <h1 id="frontMidAbout">「About</h1>
                 <h1 id="frontMidSecUTOPH">UTOPH」</h1>
                 <p>
-                    If Signor Leonato be her father, she would not have his head on her shoulders for all Messina, as like him as she is. I wonder that you will
-                    still be talking, Signor Benedick. Nobody marks you. What, my dear Lady Disdain!
+                    UTOPH - University of Toronto Project Holodeck - is a Virtual Reality (VR) design team that focuses on building fun projects 
+                    and using them to share VR with the student body here at the University of Toronto. The club was founded in October, 2015, 
+                    and was inspired by the Holodeck from the popular TV series, Star Trek.
                     <br />
                     <br />
-                    Are you yet living? Is it possible disdain should die while she hath such meet food to feed it as Signor Benedick? Courtesy itself must
-                    convert to disdain if you come in her presence. Much Ado About Nothing I.iv.
+                    Over the years since its formation, the team at UTOPH has developed various projects utilising VR in new and creative ways 
+                    that have been displayed around campus. A more in depth look can be found on the projects page.
+                    <br/>
+                    <br/>
+                    Regular meetings are hosted across multiple club spaces on campus, but visit room 515 at 256 McCaul if you want to drop in and 
+                    say hi, or maybe take a peak at what we’re currently working on. If 
+                    you’re interested in VR, video games, or electronics, head over to the contact page to sign up!
                 </p>
             </section>
         </article>
