@@ -1,17 +1,17 @@
 export const MenuItems = [
   {
     title: 'HOME',
-    url: '/utfo-website-test',
+    url: '/',
     cName: 'nav-links',
   },
   {
     title: 'TEAM',
-    url: '/utfo-website-test/team',
+    url: '/team',
     cName: 'nav-links',
   },
   {
     title: 'PROJECTS',
-    url: '/utfo-website-test/projects',
+    url: '/projects',
     cName: 'nav-links',
   }
 ];

@@ -16,10 +16,10 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/utfo-website-test" element={<FrontPage />} />
-        <Route path="/utfo-website-test/team" element={<TeamPage />} />
-        <Route path="/utfo-website-test/projects" element={<ProjectPage />} />
-        <Route path="/utfo-website-test/signup" element={<SignupPage />} />
+        <Route path="/" element={<FrontPage />} />
+        <Route path="/team" element={<TeamPage />} />
+        <Route path="/projects" element={<ProjectPage />} />
+        <Route path="/signup" element={<SignupPage />} />
       </Routes>
     </BrowserRouter>
   );
