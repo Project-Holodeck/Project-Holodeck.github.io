@@ -9,11 +9,11 @@ import {
 
 import Footer from './components/Footer/Footer.js';
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<FrontPage />} />
@@ -21,7 +21,7 @@ function App() {
         <Route path="/projects" element={<ProjectPage />} />
         <Route path="/signup" element={<SignupPage />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
