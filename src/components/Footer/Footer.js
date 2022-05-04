@@ -17,8 +17,8 @@ const Footer = () => {
           </div>
           <div className="footerTextRight">
             <FooterRightText text="Room 515 in 256 McCaul Street" image={locationIcon}/>
-            <FooterRightText text="insertemailname@email.com" image={mailIcon} />
-            <a className="footerDiscord" href="" target="_blank" rel="noreferrer">
+            <FooterRightText text="UTOPH@g.skule.ca" image={mailIcon} />
+            <a className="footerDiscord" href="https://discord.gg/dUnuPXHkAv" target="_blank" rel="noreferrer">
               <FooterRightText text="Join our Discord Server!" image={discordIcon}/>
             </a>
           </div>

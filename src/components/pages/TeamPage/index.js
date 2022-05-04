@@ -3,8 +3,9 @@ import TeamPageBanner from "../Banner/Banner";
 import BannerInfo from "../Banner/BannerInfo.js";
 import CardGrid from "./CardGrid";
 import Card from "./card";
-import { CurrentExecInfo } from "./teamInfo";
-import { MemberCardInfo } from './MemberCardInfo.js';
+import { CurrentExecInfo } from "./memberInfo/teamInfo";
+import { MemberCardInfo } from './memberInfo/MemberCardInfo.js';
+import { FormerExecutiveCardInfo } from './memberInfo/FormerExecutiveCardInfo.js';
 import "./index.css";
 
 import Footer from '../../Footer/Footer.js';
@@ -45,43 +46,21 @@ const memberCards = MemberCardInfo.map((memberData) => {
   );
 });
 
-let testingCard2 = (
-  <Card
-    card={{
-      className: "teamPageCardStyle2",
-      image: sampleImg,
-      name: "Name 2",
-      position: "Position 2",
-      discipline: "Discipline+Year 2",
-      link1: "#",
-      link2: "#",
-    }}
-  />
-);
-
-let myCards2 = [
-  testingCard2,
-  testingCard2,
-  testingCard2,
-  testingCard2,
-  testingCard2,
-];
-
-let testingCard3 = (
-  <Card
-    card={{
-      className: "teamPageCardStyle1",
-      image: sampleImg,
-      name: "Name 1",
-      position: "Position 1",
-      discipline: "Discipline+Year 1",
-      link1: "#",
-      link2: "#",
-    }}
-  />
-);
-
-let myCards3 = [testingCard3, testingCard3, testingCard3, testingCard3];
+const formerExecCards = FormerExecutiveCardInfo.map((memberData) => {
+  return (
+      <Card 
+        card = {{
+          className: "teamPageCardStyle2",
+          image: memberData.image,
+          name: memberData.name,
+          position: memberData.position,
+          discipline: memberData.discipline,
+          link1: "#",
+          link2: "#",
+        }}
+      />
+  );
+});
 
 const index = () => {
   return (
@@ -136,7 +115,7 @@ const index = () => {
           </div>
         </div>
         <div className="CardGridContainer">
-          <CardGrid cards={myCards3} />
+          <CardGrid cards={formerExecCards} />
         </div>
         <Footer/>
       </div>

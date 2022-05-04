@@ -1,9 +1,9 @@
-import Andrew from './images/AndrewIlersich.png';
-import Caulan from './images/CaulanRupke.png';
-import Michael from './images/MichaelLawee.png';
-import Torin from './images/TorinAnderson.png';
-import Ben from './images/BenGoodchild.png';
-import Anthony from './images/AnthonyKwon.png';
+import Andrew from '../images/AndrewIlersich.png';
+import Caulan from '../images/CaulanRupke.png';
+import Michael from '../images/MichaelLawee.png';
+import Torin from '../images/TorinAnderson.png';
+import Ben from '../images/BenGoodchild.png';
+import Anthony from '../images/AnthonyKwon.png';
 
 export const ExecutiveCardInfo = [
     {
