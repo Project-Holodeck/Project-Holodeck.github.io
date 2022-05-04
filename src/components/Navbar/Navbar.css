@@ -8,7 +8,7 @@
 .navbarContainer {
   background-color: rgb(255, 255, 255);
   width: 94%;
-  height: fit-content;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   padding-left: 3%;
@@ -138,7 +138,7 @@ a {
     width: 110%;
     height: fit-content;
     position: absolute;
-    top: 73px;
+    top: 70px;
     left: 100%;
     opacity: 1;
     transition: all 0.5s ease;

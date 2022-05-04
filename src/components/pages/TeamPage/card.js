@@ -14,8 +14,8 @@ const Card = ({card}) => {
       <span className="teamPageCardDesc">{card.discipline}</span>
       <br/>
       <div className="teamPageCardLinks">
-        <a href={card.link1}><div className="teamPageCardLink1"/></a>
-        <a href={card.link2}><div className="teamPageCardLink2"/></a>
+        {card.link1.length > 0 ? <a href={card.link1}><div className="teamPageCardLink1"/></a> : <></>}
+        {card.link2.length > 0 ? <a href={card.link2}><div className="teamPageCardLink2"/></a> : <>/</>}
       </div>
     </div>
   </>;

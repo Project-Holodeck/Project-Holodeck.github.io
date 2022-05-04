@@ -10,25 +10,25 @@ export const MemberCardInfo = [
     {
         name: 'Ghamr Saeed',
         image: GhamrSaeedImage,
-        position: 'General Member',
+        position: 'Team Member',
         discipline: 'Electrical Engineering, 2T3'
     },
     {
         name: 'Irwin Ngo',
         image: IrwinNgoImage,
-        position: 'General Member',
+        position: 'Team Member',
         discipline: 'Computer Engineer, 2T5'
     },
     {
         name: 'Parth Dua',
         image: ParthDuaImage,
-        position: 'General Member',
+        position: 'Team Member',
         discipline: 'Engineering Science, 2T4'
     },
     {
         name: 'Ling Bi',
         image: LingBiImage,
-        position: 'General Member',
-        discipline: 'Discipline+Year 1'
+        position: 'Team Member',
+        discipline: 'Design & Illustration, 1T9'
     }
 ]
