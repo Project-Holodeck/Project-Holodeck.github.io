@@ -43,7 +43,9 @@ export default function App() {
                             </svg>
                         </div>
                     </div>
-
+                    <div>
+                        <p>If the form below does not work, click <a style={{fontWeight: 'bold'}} href="https://docs.google.com/forms/u/0/d/e/1FAIpQLScenISOijNdX7NOdIK_biXc_xRmeWiwWkob5khDIwO43CpUEQ/formResponse?embedded=true" target="_blank">here</a> instead! </p>
+                    </div>
                     <section className="signUp-form" style={{minHeight: 1.4*window.innerHeight}}>
                         <iframe
                             src="https://docs.google.com/forms/u/0/d/e/1FAIpQLScenISOijNdX7NOdIK_biXc_xRmeWiwWkob5khDIwO43CpUEQ/formResponse?embedded=true"
