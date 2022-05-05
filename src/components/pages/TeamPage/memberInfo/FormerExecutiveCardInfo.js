@@ -8,12 +8,16 @@ export const FormerExecutiveCardInfo = [
         name: 'Ben Goodchild',
         image: BenGoodchildImage,
         position: 'Web Developer',
-        discipline: 'Electrical Engineer, 2T0+PEY'
+        discipline: 'Electrical Engineer, 2T0+PEY',
+        linkedin: '',
+        world: '',
     },
     {
         name: 'Torin Anderson',
         image: TorinAndersonImage,
         position: 'Outreach',
-        discipline: 'Electrical Engineer, 2T0+PEY'
+        discipline: 'Electrical Engineer, 2T0+PEY',
+        linkedin: '',
+        world: '',
     },
 ]

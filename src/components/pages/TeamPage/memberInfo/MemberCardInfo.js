@@ -11,24 +11,32 @@ export const MemberCardInfo = [
         name: 'Ghamr Saeed',
         image: GhamrSaeedImage,
         position: 'Team Member',
-        discipline: 'Electrical Engineering, 2T3'
+        discipline: 'Electrical Engineering, 2T3',
+        linkedin: '',
+        world: '',
     },
     {
         name: 'Irwin Ngo',
         image: IrwinNgoImage,
         position: 'Team Member',
-        discipline: 'Computer Engineer, 2T5'
+        discipline: 'Computer Engineer, 2T5',
+        linkedin: '',
+        world: '',
     },
     {
         name: 'Parth Dua',
         image: ParthDuaImage,
         position: 'Team Member',
-        discipline: 'Engineering Science, 2T4'
+        discipline: 'Engineering Science, 2T4',
+        linkedin: '',
+        world: '',
     },
     {
         name: 'Ling Bi',
         image: LingBiImage,
         position: 'Team Member',
-        discipline: 'Design & Illustration, 1T9'
+        discipline: 'Design & Illustration, 1T9',
+        linkedin: '',
+        world: '',
     }
 ]

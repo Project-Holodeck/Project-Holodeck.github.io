@@ -6,7 +6,9 @@ const CurrentExecInfo = [
         name: 'Andrew Ilersich',
         image: AndrewIlersichImage,
         position: 'President',
-        discipline: 'Aerospace Engineer, PhD Student'
+        discipline: 'Aerospace Engineer, PhD Student',
+        linkedin: '',
+        world: '',
     },
 ]
 

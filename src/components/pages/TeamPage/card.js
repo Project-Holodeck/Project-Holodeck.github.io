@@ -15,7 +15,7 @@ const Card = ({card}) => {
       <br/>
       <div className="teamPageCardLinks">
         {card.link1.length > 0 ? <a href={card.link1}><div className="teamPageCardLink1"/></a> : <></>}
-        {card.link2.length > 0 ? <a href={card.link2}><div className="teamPageCardLink2"/></a> : <>/</>}
+        {card.link2.length > 0 ? <a href={card.link2}><div className="teamPageCardLink2"/></a> : <></>}
       </div>
     </div>
   </>;
