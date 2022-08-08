@@ -11,18 +11,19 @@ import Footer from './components/Footer/Footer.js';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-function App() {
+export const domain = "/utfo-website-test";
+
+export function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<FrontPage />} />
-        <Route path="/team" element={<TeamPage />} />
-        <Route path="/projects" element={<ProjectPage />} />
-        <Route path="/signup" element={<SignupPage />} />
+        <Route path={domain + "/"} element={<FrontPage />} />
+        <Route path={domain + "/team"} element={<TeamPage />} />
+        <Route path={domain + "/projects"} element={<ProjectPage />} />
+        <Route path={domain + "/signup"} element={<SignupPage />} />
       </Routes>
     </BrowserRouter>
   );
 }
 
-export default App;

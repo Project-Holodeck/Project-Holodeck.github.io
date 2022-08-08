@@ -4,6 +4,8 @@ import { useState} from 'react';
 import { MenuItems } from './MenuItems.js';
 import utophIcon from './images/utoph-icon.png';
 
+import { domain } from '../../App.js';
+
 
 const Navbar = () => {
 
@@ -20,7 +22,6 @@ const Navbar = () => {
   const toggleMenu = () => {
     onClick(!click);
   }
-
 
   return (
     <nav className="navbarContainer">
@@ -42,7 +43,7 @@ const Navbar = () => {
           {MenuItems.map((item) => {
               return (
                 <div className="navbarItems">
-                  <a className={item.cName} href={item.url}>
+                  <a className={item.cName} href={domain + item.url}>
                       {pagePath(item.title)}
                   </a>
                 </div> 
@@ -50,7 +51,7 @@ const Navbar = () => {
             })}
 
           <div className="navbarItems navbarSignUp">
-            <a className="nav-links" href="/signup">
+            <a className="nav-links" href={ domain + "/signup" }>
               <p>JOIN US</p>
             </a>
           </div>
