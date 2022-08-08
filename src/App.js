@@ -9,21 +9,19 @@ import {
 
 import Footer from './components/Footer/Footer.js';
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-export const domain = "/utfo-website-test";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 export function App() {
   return (
-    <BrowserRouter>
+    <HashRouter hashType="noslash">
       <Navbar />
       <Routes>
-        <Route path={domain + "/"} element={<FrontPage />} />
-        <Route path={domain + "/team"} element={<TeamPage />} />
-        <Route path={domain + "/projects"} element={<ProjectPage />} />
-        <Route path={domain + "/signup"} element={<SignupPage />} />
+        <Route path="/" element={<FrontPage />} />
+        <Route path="/team" element={<TeamPage />} />
+        <Route path="/projects" element={<ProjectPage />} />
+        <Route path="/signup" element={<SignupPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

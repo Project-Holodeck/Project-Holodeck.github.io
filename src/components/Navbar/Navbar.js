@@ -4,14 +4,24 @@ import { useState} from 'react';
 import { MenuItems } from './MenuItems.js';
 import utophIcon from './images/utoph-icon.png';
 
-import { domain } from '../../App.js';
-
 
 const Navbar = () => {
 
+
+  let actualTab = {
+    "HOME": false,
+    "TEAM": false,
+    "PROJECTS": false,
+    "SIGNUP": false
+  }
+
+  const [tab, setTab] = useState({
+    ...actualTab
+  });
+
   const pagePath = (title) => {
-    let path = window.location.pathname;
-    if((title === "HOME" && path === "/") || (title === "TEAM" && path === "/team") || (title === "PROJECTS" && path === "/projects")) 
+    let path = window.location.hash;
+    if((title === "HOME" && tab["HOME"] === true) || (title === "TEAM" && tab["TEAM"] === true) || (title === "PROJECTS" && tab["PROJECTS"] === true)) 
       return <p style={{borderColor: 'rgb(0, 2, 132)', color: 'rgb(46, 46, 46)'}}>{title}</p>
     else
       return <p>{title}</p>
@@ -21,6 +31,21 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     onClick(!click);
+  }
+
+  const changeTab = (title) => {
+    actualTab = {
+      "HOME": false,
+    "TEAM": false,
+    "PROJECTS": false,
+    "SIGNUP": false
+    };
+
+    actualTab[title] = true;
+
+    setTab({...actualTab});
+
+    console.log(tab);
   }
 
   return (
@@ -43,7 +68,7 @@ const Navbar = () => {
           {MenuItems.map((item) => {
               return (
                 <div className="navbarItems">
-                  <a className={item.cName} href={domain + item.url}>
+                  <a className={item.cName} href={"#" + item.url} onClick={() => changeTab(item.title)} >
                       {pagePath(item.title)}
                   </a>
                 </div> 
@@ -51,7 +76,7 @@ const Navbar = () => {
             })}
 
           <div className="navbarItems navbarSignUp">
-            <a className="nav-links" href={ domain + "/signup" }>
+            <a className="nav-links" href={ "#" + "/signup" } onClick={() => changeTab("SIGNUP")}>
               <p>JOIN US</p>
             </a>
           </div>
