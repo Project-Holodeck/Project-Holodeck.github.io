@@ -34,7 +34,7 @@ const ProjectSection = () => {
                     <ProjectSlide image={projectSlideInfo[projectNum].image} text={projectSlideInfo[projectNum].text} projectNum={projectNum} />
                 </div>
 
-                <a className="frontPageProjectSectionReadMoreClick" href="/projects">
+                <a className="frontPageProjectSectionReadMoreClick" href="#/projects">
                     <div className="frontPageProjectSectionReadMore">
                         <button>
                             <span>Read More!</span>
