@@ -5,7 +5,7 @@ import CardGrid from "./CardGrid";
 import Card from "./card";
 import { CurrentExecInfo } from "./memberInfo/teamInfo";
 import { MemberCardInfo } from './memberInfo/MemberCardInfo.js';
-import { FormerExecutiveCardInfo } from './memberInfo/FormerExecutiveCardInfo.js';
+import { FormerMemberCardInfo } from './memberInfo/FormerMemberCardInfo.js';
 import "./index.css";
 
 import Footer from '../../Footer/Footer.js';
@@ -46,7 +46,7 @@ const memberCards = MemberCardInfo.map((memberData) => {
   );
 });
 
-const formerExecCards = FormerExecutiveCardInfo.map((memberData) => {
+const formerMemberCards = FormerMemberCardInfo.map((memberData) => {
   return (
       <Card 
         card = {{
@@ -110,12 +110,12 @@ const index = () => {
         <div className="FormerTitleWrapper">
           <div className='FormerExecBorderContainer'>
             <p className="WhiteHeader">
-              Former Executives
+              Alumni
             </p>
           </div>
         </div>
         <div className="CardGridContainer">
-          <CardGrid cards={formerExecCards} />
+          <CardGrid cards={formerMemberCards} />
         </div>
         <Footer/>
       </div>

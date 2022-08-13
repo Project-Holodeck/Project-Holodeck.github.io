@@ -7,7 +7,7 @@ const info = [
     image: './images/treadmill.jpg',
     start: 'October 2015',
     end: 'November 2017',
-    members: 'Andrew Ilersich, Caulan Rupke, Michael Lawee',
+    members: 'Andrew Ilersich, Caulan Rupke, Michael Lawee, Torin Anderson',
   },
   {
     id: '01',
@@ -17,7 +17,7 @@ const info = [
     image: './images/arcade.jpg',
     start: 'May 2019',
     end: 'September 2019',
-    members: 'Andrew Ilersich, Anthony Kwon, Ben Goodchild',
+    members: 'Andrew Ilersich, Anthony Kwon, Ben Goodchild, Torin Anderson',
   },
   {
     id: '02',
