@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.6f90d687.css",
-    "main.js": "/static/js/main.8613453f.js",
+    "main.js": "/static/js/main.dbb0dfc8.js",
     "static/media/shoes.jpg": "/static/media/shoes.93512298c5919d99ac99.jpg",
+    "static/media/arcadedrum.jpg": "/static/media/arcadedrum.557e2f5b56c9a77cc893.jpg",
     "static/media/scanner.jpg": "/static/media/scanner.ee81e94ee48aa5f09823.jpg",
     "static/media/roomscanner.jpg": "/static/media/roomscanner.bd7ddd3d31715cf2fc8c.jpg",
     "static/media/Andrew Ilersich.png": "/static/media/Andrew Ilersich.864fddc0fa863f928490.png",
@@ -18,6 +19,7 @@
     "static/media/leapmotion.jpeg": "/static/media/leapmotion.801c7e12eb6349f3d3ef.jpeg",
     "static/media/treadmill.jpg": "/static/media/treadmill.c1435afba51690c0788f.jpg",
     "static/media/Torin Anderson.jpg": "/static/media/Torin Anderson.c4b837adf206a6f17cfa.jpg",
+    "static/media/Scott Hirano.jpg": "/static/media/Scott Hirano.df799e165fa7119b0ae0.jpg",
     "static/media/MichaelLawee.png": "/static/media/MichaelLawee.ac75ea8b1ba05e7367c3.png",
     "static/media/vr.png": "/static/media/vr.d5471d64b04e381414ce.png",
     "static/media/CaulanRupke.png": "/static/media/CaulanRupke.4a68b8527e0307967b6d.png",
@@ -29,10 +31,10 @@
     "static/media/utoph-icon.png": "/static/media/utoph-icon.cc25773ee35205fd47fe.png",
     "index.html": "/index.html",
     "main.6f90d687.css.map": "/static/css/main.6f90d687.css.map",
-    "main.8613453f.js.map": "/static/js/main.8613453f.js.map"
+    "main.dbb0dfc8.js.map": "/static/js/main.dbb0dfc8.js.map"
   },
   "entrypoints": [
     "static/css/main.6f90d687.css",
-    "static/js/main.8613453f.js"
+    "static/js/main.dbb0dfc8.js"
   ]
 }
