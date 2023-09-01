@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css';
 
 const projectContent = ({ project, imgSrc }) => {
+  console.log(imgSrc)
   return (
     <div>
       <div className='projectContainer'>

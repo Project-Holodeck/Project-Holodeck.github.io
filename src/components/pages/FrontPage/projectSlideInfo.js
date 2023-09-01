@@ -3,6 +3,7 @@ import Arcade from './images/arcade.jpg';
 import LeapHands from './images/leaphands.jpeg';
 import Shoes from './images/shoes.jpg';
 import Scanner from './images/scanner.jpg';
+import ArcadeDrum from './images/arcadedrum.jpg'
 
 export const projectSlideInfo = [
     {
@@ -30,4 +31,9 @@ export const projectSlideInfo = [
         text: "This 3D Room Scanner can easily scan a room to develop VR landscapes",
         image: Scanner,
     },
+    {
+        id: 5,
+        text: "This Arcade Drum Project is a 3D Rhythm Game with metallic Bongos",
+        image: ArcadeDrum,
+    }
 ]
